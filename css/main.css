@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+}
+:root {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    font-size: 100%;
+  }
+}
