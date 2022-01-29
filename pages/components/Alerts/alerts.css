@@ -1,3 +1,4 @@
+@import url("../../../css/main.css");
 .alert {
   width: max-content;
   background-color: aquamarine;
@@ -24,20 +25,20 @@
 .avatar {
   border-radius: 50%;
   border-style: solid;
-  border-color: orange;
+  border-color: var(--secondary-color);
 }
 
 .avatar-lg {
-  height: 3em;
+  height: 4em;
 }
 .avatar-md {
-  height: 2.5em;
+  height: 3.5em;
 }
 .avatar-sm {
-  height: 2em;
+  height: 3em;
 }
 .avatar-xs {
-  height: 1.5em;
+  height: 2em;
 }
 
 .avatar-status {
@@ -49,18 +50,18 @@
 }
 
 .online {
-  background-color: palegreen;
+  background-color: var(--primary-color);
   bottom: 0.2em;
   right: 0.2em;
 }
 .offline {
-  background-color: red;
+  background-color: var(--secondary-color);
   bottom: 0.1em;
   right: 0.1em;
 }
 
 .dnd {
-  background-color: yellow;
+  background-color: var(--teritiary-Color);
   bottom: 0.1em;
   right: 0em;
 }
