@@ -1,0 +1,89 @@
+.btn {
+  border: 0em;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+}
+
+.secondary-btn {
+  background-color: var(--secondary-color);
+}
+
+.primary-outlime-btn {
+  color: var(--primary-color);
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: var(--primary-color);
+  background-color: transparent;
+}
+
+.secondary-outline-btn {
+  color: var(--secondary-color);
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: var(--scondary-color);
+  background-color: transparent;
+}
+
+.primary-icon-btn {
+  /* color: var(--primary-color); */
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondary-icon-btn {
+  /* color: var(--primary-color); */
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like-icon {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-style: none;
+  font-size: 2em;
+}
+
+.float {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  box-shadow: 10px 20px 30px --scondary-color;
+  position: static;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-link {
+  color: var(--primary-color);
+  border-style: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-link {
+  color: var(--secondary-color);
+  border-style: none;
+  background-color: transparent;
+  text-decoration: underline;
+}

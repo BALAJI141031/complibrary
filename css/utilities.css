@@ -38,6 +38,12 @@ ul {
   position: relative;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1fr;
+}
+
 .comp-code {
   width: 40em;
   height: 20em;
@@ -62,6 +68,10 @@ ul {
 
 .ul-mt {
   margin-top: 0.1rem;
+}
+
+.ml {
+  margin-left: 3em;
 }
 
 @media screen and (max-width: 800px) {
