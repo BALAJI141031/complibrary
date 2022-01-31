@@ -8,6 +8,7 @@
   --secondary-color: #ff7676;
   --teritiary-Color: #fde1e1;
   --primary-border: 0.5em;
+  --shadow: 0 10px 40px rgb(0 0 0 / 0.4);
 }
 
 @media screen and (max-width: 800px) {
