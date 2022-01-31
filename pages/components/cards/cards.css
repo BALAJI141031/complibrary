@@ -1,0 +1,64 @@
+.horizantal-Card {
+  display: grid;
+  width: max-content;
+  padding: 1em;
+  /* height: 15em; */
+  grid-template-columns: 0.5fr 1fr;
+  /* background-color: var(--teritiary-Color); */
+  border-radius: var(--primary-border);
+}
+
+.card-image {
+  width: 13em;
+  height: 13em;
+  /* border-style: solid; */
+}
+
+.inside-card {
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.filter-card {
+  width: 15em;
+  border-style: solid;
+  padding: 0.2em;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  box-shadow: 1px 2px 2px var(--primary-color);
+}
+
+.ver-card-image {
+  width: 10em;
+  height: 13em;
+}
+
+.ver-card {
+  width: 10em;
+}
+.p-card-btn {
+  width: 10em;
+}
+.gen-card {
+  width: 35em;
+  /* grid-template-columns: 0.2fr 1fr; */
+  border-style: solid;
+}
+.card-badge {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  border-style: solid;
+  border-width: 0px;
+  background-color: var(--teritiary-Color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+}

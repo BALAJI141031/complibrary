@@ -6,7 +6,8 @@
   font-size: 120%;
   --primary-color: #ff4848;
   --secondary-color: #ff7676;
-  --teritiary-Color: #fca5a5;
+  --teritiary-Color: #fde1e1;
+  --primary-border: 0.5em;
 }
 
 @media screen and (max-width: 800px) {
