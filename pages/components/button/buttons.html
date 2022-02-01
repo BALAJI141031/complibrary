@@ -18,25 +18,59 @@
     <link rel="stylesheet" href="../../../css/utilities.css" />
   </head>
   <body>
-    <h1>Button</h1>
-    <h2>Solid Buttons</h2>
-    <button class="btn primary-btn">Login</button>
-    <button class="btn secondary-btn">Log Out</button>
-    <p>
-      The solid Button Component is available in two variants primary-btn
-      secondary-btn
-    </p>
-    <h2>Outline Buttons</h2>
-    <button class="btn primary-outlime-btn">Primary</button>
-    <button class="btn secondary-outline-btn">Secondary</button>
-    <p>
-      The outline button component is available in two variants
-      primary-outlime-btn,secondary-outline-btn
-    </p>
+    <header class="flex-exact">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-row ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
+      </div>
+    </header>
 
-    <h2>Icon Buttons</h2>
+    <section class="comp-page-display">
+      <nav class="flex-center">
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <li>Avatar&Alert</li>
+            <li>Badge</li>
+            <li>Button</li>
+            <li>Badge</li>
+            <li>Card</li>
+            <li>Image</li>
+            <li>Input</li>
+            <li>List</li>
+            <li>Navigation</li>
+            <li>Toast</li>
+          </ul>
+        </div>
+      </nav>
+      <main class="comp-display">
+        <h1>Button</h1>
+        <h2>Solid Buttons</h2>
+        <button class="btn primary-btn">primary Login</button>
+        <button class="btn secondary-btn">primary LogOut</button>
+        <p>
+          The solid Button Component is available in two variants primary-btn
+          secondary-btn
+        </p>
+        <h2>Outline Buttons</h2>
+        <button class="btn primary-outlime-btn">Primary Login</button>
+        <button class="btn secondary-outline-btn">Secondary Logout</button>
+        <p>
+          The outline button component is available in two variants
+          primary-outlime-btn,secondary-outline-btn
+        </p>
 
-    <!-- <button class="flex-exact btn primary-icon-btn">
+        <h2>Icon Buttons</h2>
+
+        <!-- <button class="flex-exact btn primary-icon-btn">
       <i class="fas fa-cart-arrow-down icon-md"></i>
       Add to cart
     </button>
@@ -44,29 +78,42 @@
       <i class="fas fa-heart"></i>
       Like
     </button> -->
-    <div class="flex-wrap">
-      <button class="btn secondary-icon-btn">
-        <i class="fas fa-cart-arrow-down icon-mr"></i>Add to cart
-      </button>
-      <button class="like-icon icon-m">
-        <i class="fas fa-heart"></i>
-      </button>
+        <div class="flex-wrap">
+          <button class="btn secondary-icon-btn">
+            <i class="fas fa-cart-arrow-down icon-mr"></i>Add to cart
+          </button>
+          <button class="like-icon icon-m">
+            <i class="fas fa-heart"></i>
+          </button>
 
-      <button class="btn primary-icon-btn">
-        Checkout
-        <i class="fas fa-long-arrow-alt-right icon-ml"></i>
-      </button>
-    </div>
-    <p>This type buttons will help us in social media and ecommerce website</p>
+          <button class="btn primary-icon-btn">
+            Checkout
+            <i class="fas fa-long-arrow-alt-right icon-ml"></i>
+          </button>
+        </div>
+        <p>
+          This type buttons will help us in social media and ecommerce website
+        </p>
 
-    <h2>Floating action button</h2>
-    <button class="btn float">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-    <p>Floating action button can be used in all website</p>
+        <h2>Floating action button</h2>
+        <button class="btn float">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+        <p>Floating action button can be used in all website</p>
 
-    <h2>Link Buttons</h2>
-    <button class="btn primary-link">Primary Link</button>
-    <button class="btn secondary-link">Secondary Link</button>
+        <h2>Link Buttons</h2>
+        <button class="btn primary-link">Primary Link</button>
+        <button class="btn secondary-link">Secondary Link</button>
+      </main>
+      <aside>
+        <h3 class="side-navigator">On this page you can get</h3>
+        <hr />
+        <h3><a href="#s-alerts">Solid Buttons</a></h3>
+        <h3><a href="#s-avatars">Outline Buttons</a></h3>
+        <h3><a href="#avatars-status">Icon Buttons</a></h3>
+        <h3><a href="#s-avatars">Floating Button</a></h3>
+        <h3><a href="#avatars-status">Link Buttons</a></h3>
+      </aside>
+    </section>
   </body>
 </html>

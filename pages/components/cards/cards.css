@@ -90,6 +90,15 @@
   position: relative;
 }
 
+.rating {
+  color: var(--primary-color);
+}
+
+.stick {
+  position: absolute;
+  top: 10em;
+}
+
 .h-card > img {
   width: 35%;
 }

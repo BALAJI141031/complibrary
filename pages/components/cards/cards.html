@@ -21,132 +21,209 @@
     <title>Cards</title>
   </head>
   <body>
-    <main class="flex-wrap">
-      <div class="m-all">
-        <h1>Horizantal/vertical Cards</h1>
-
-        <div class="filter-card">
-          <div class="proper-flex head-zero-m">
-            <h4>Filters</h4>
-            <h4>ClearAll</h4>
-          </div>
-          <h4 class="head-zero-m">Price</h4>
-          <div class="proper-flex head-zero-m">
-            <h4 class="head-zero-m">100</h4>
-            <h4 class="head-zero-m">200</h4>
-            <h4 class="head-zero-m">500</h4>
-          </div>
-
-          <h4 class="head-zero-m">Rating</h4>
-          <div class="flex-row-center head-zero-m">
-            <input type="checkbox" />
-            <p class="head-zero-m">4 Stars & above</p>
-          </div>
-          <h4 class="head-zero-m">Sort by</h4>
-          <div class="flex-row-center">
-            <input type="radio" />
-            <p class="ml-fil">price-Low to High</p>
-          </div>
-          <div class="flex-row-center">
-            <input type="radio" />
-            <p class="ml-fil">price-High to Low</p>
-          </div>
+    <header class="flex-exact">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-row ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
       </div>
-
-      <!-- e-commerce homepage div -->
-      <div class="ver-card pos-rel-only m-all">
-        <img src="../../../images/ver-ecom.jpg" class="ver-card-image" />
-        <div class="flex-center">
-          <p class="head-zero-m">India's premium Food you cant uy anywhere</p>
-          <h3 class="head-zero-m">$200</h3>
-          <button class="btn primary-btn p-card-btn">Go to cart</button>
+    </header>
+    <section class="comp-page-display">
+      <nav class="flex-center">
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <li>Avatar&Alert</li>
+            <li>Badge</li>
+            <li>Button</li>
+            <li>Badge</li>
+            <li>Card</li>
+            <li>Image</li>
+            <li>Input</li>
+            <li>List</li>
+            <li>Navigation</li>
+            <li>Toast</li>
+          </ul>
         </div>
-        <div class="card-badge">
-          <button class="like-icon icon-sm">
-            <i class="fas fa-heart"></i>
-          </button>
-        </div>
-      </div>
+      </nav>
+      <main class="flex-wrap">
+        <div class="m-all">
+          <h1 id="h-v-cards">Horizantal/vertical Cards</h1>
 
-      <!-- card with dismiss -->
-      <div class="h-card flex-row m-all">
-        <img src="../../../images/ver-ecom.jpg" />
-        <div class="flex-col-bw">
-          <div>
-            <p class="reduce-mtb">Taj's Premium Food</p>
-            <div class="flex-row head-zero-m">
-              <h2 class="head-zero-m">$50</h2>
-              <h2 class="head-zero-m strike-rate">$80</h2>
+          <div class="filter-card">
+            <div class="proper-flex head-zero-m">
+              <h4>Filters</h4>
+              <h4>ClearAll</h4>
             </div>
-            <p class="head-zero-m">50% OFF</p>
+            <h4 class="head-zero-m">Price</h4>
+            <div class="proper-flex head-zero-m">
+              <h4 class="head-zero-m">100</h4>
+              <h4 class="head-zero-m">200</h4>
+              <h4 class="head-zero-m">500</h4>
+            </div>
+
+            <h4 class="head-zero-m">Rating</h4>
+            <div class="flex-row-center head-zero-m">
+              <input type="checkbox" />
+              <p class="head-zero-m">4 Stars & above</p>
+            </div>
+            <h4 class="head-zero-m">Sort by</h4>
+            <div class="flex-row-center">
+              <input type="radio" />
+              <p class="ml-fil">price-Low to High</p>
+            </div>
+            <div class="flex-row-center">
+              <input type="radio" />
+              <p class="ml-fil">price-High to Low</p>
+            </div>
           </div>
-          <div class="flex-col reduce-mtb">
-            <button class="reduce-mtb btn primary-btn">Go the Cart</button>
-            <button class="reduce-mtb btn secondary-btn">
-              Remove from WishList
+        </div>
+
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+        <!-- card with dismiss -->
+        <div class="h-card flex-row m-all">
+          <img src="../../../images/ver-ecom.jpg" />
+          <div class="flex-col-bw">
+            <div>
+              <p class="reduce-mtb">Taj's Premium Food</p>
+              <div class="flex-row head-zero-m">
+                <h2 class="head-zero-m">$50</h2>
+                <h2 class="head-zero-m strike-rate">$80</h2>
+              </div>
+              <p class="head-zero-m">50% OFF</p>
+            </div>
+            <div class="flex-col reduce-mtb">
+              <button class="reduce-mtb btn primary-btn">Go the Cart</button>
+              <button class="reduce-mtb btn secondary-btn">
+                Remove from WishList
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+
+        <!-- card foe zomoto homepage -->
+        <h2 id="badge-cards">Card With badge</h2>
+        <!-- e-commerce homepage div -->
+        <div class="ver-card pos-rel-only m-all">
+          <img src="../../../images/ver-ecom.jpg" class="ver-card-image" />
+          <div class="flex-center">
+            <p class="head-zero-m">India's premium Food you cant uy anywhere</p>
+            <h3 class="head-zero-m">$200</h3>
+            <button class="btn primary-btn p-card-btn">Go to cart</button>
+          </div>
+          <div class="card-badge">
+            <button class="like-icon icon-sm">
+              <i class="fas fa-heart"></i>
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- card foe zomoto homepage -->
-      <div class="sq-card m-all">
-        <img src="../../../images/ver-ecom.jpg" class="width-image" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
 
-        <h4 class="reduce-mtb">Hyderbad Dum Biriyani</h4>
-        <p class="reduce-mtb">Indian,Chinese,Deserts</p>
-        <div class="flex-row">
-          <div class="flex-row-center rating">
+        <div class="sq-card m-all">
+          <img src="../../../images/ver-ecom.jpg" class="width-image" />
+
+          <h4 class="reduce-mtb">Hyderbad Dum Biriyani</h4>
+          <p class="reduce-mtb">Indian,Chinese,Deserts</p>
+          <div class="flex-row-center">
             <i class="fas fa-star"></i>
             <p class="reduce-mtb p-text-t">4.8</p>
+            <div class="reduce-mtb flex-row">
+              <li class="reduce-mtb">35 MINS</li>
+              <li class="reduce-mtb">$4 half Plate</li>
+            </div>
           </div>
-          <ul class="reduce-mtb flex-row">
-            <li class="reduce-mtb">35 MINS</li>
-            <li class="reduce-mtb">$4 half Plate</li>
-          </ul>
+          <hr class="reduce-mtb" />
+          <div class="flex-row-center">
+            <i class="fas fa-percentage offerIcon mr"></i>
+            <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
+          </div>
+          <div class="badge">Newly added</div>
         </div>
-        <hr class="reduce-mtb" />
-        <div class="flex-row-center">
-          <i class="fas fa-percentage offerIcon mr"></i>
-          <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
-        </div>
-        <div class="badge">Newly added</div>
-      </div>
 
-      <!-- 
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+
+        <!-- 
         social media
        -->
 
-      <div class="sq-card">
-        <div class="flex-row-bw">
+        <h1 id="media-cards">card with dismiss</h1>
+
+        <div class="sq-card">
+          <div class="flex-row-bw">
+            <div class="flex-row-center">
+              <img src="../../../images/balu.jpg" class="profile-card" />
+              <div>
+                <p class="reduce-mtb">Balaji Narayana</p>
+                <p class="reduce-mtb">Aragonda Chittoor</p>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div>
+            <img src="../../../images/ver-ecom.jpg" class="width-image" />
+            <h4 class="head-zero-m">A question from Nuclear Physics</h4>
+            <p class="head-zero-m">
+              physics and biriyani is a awesome combination
+            </p>
+          </div>
           <div class="flex-row-center">
-            <img src="../../../images/balu.jpg" class="profile-card" />
-            <div>
-              <p class="reduce-mtb">Balaji Narayana</p>
-              <p class="reduce-mtb">Aragonda Chittoor</p>
+            <div class="flex-row-center">
+              <i class="fab fa-gratipay leftMargin mr"></i>
+              <p>535</p>
+            </div>
+            <div class="flex-row-center ml">
+              <i class="far fa-comment-alt leftMargin mr"></i>
+              <p>535</p>
             </div>
           </div>
-          <i class="fas fa-ellipsis-v"></i>
         </div>
-        <div>
-          <img src="../../../images/ver-ecom.jpg" class="width-image" />
-          <h4 class="head-zero-m">A question from Nuclear Physics</h4>
-          <p class="head-zero-m">
-            physics and biriyani is a awesome combination
-          </p>
-        </div>
-        <div class="flex-row-center">
-          <div class="flex-row-center">
-            <i class="fab fa-gratipay leftMargin mr"></i>
-            <p>535</p>
-          </div>
-          <div class="flex-row-center ml">
-            <i class="far fa-comment-alt leftMargin mr"></i>
-            <p>535</p>
-          </div>
-        </div>
-      </div>
-    </main>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+      </main>
+      <aside>
+        <h3 class="side-navigator">On this page you can get</h3>
+        <hr />
+        <h3><a href="#h-v-cards">vertical or horizantal cards</a></h3>
+        <h3><a href="#badge-cards">cards with badges</a></h3>
+        <h3><a href="#media-cards">cards with icon or dismiss</a></h3>
+      </aside>
+      <button class="btn float stick">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </section>
   </body>
 </html>
