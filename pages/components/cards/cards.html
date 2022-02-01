@@ -21,46 +21,47 @@
     <title>Cards</title>
   </head>
   <body>
-    <main>
-      <h1>Horizantal/vertical Cards</h1>
+    <main class="flex-wrap">
+      <div class="m-all">
+        <h1>Horizantal/vertical Cards</h1>
 
-      <div class="filter-card">
-        <div class="proper-flex">
-          <h4>Filters</h4>
-          <h4>ClearAll</h4>
-        </div>
-        <h4>Price</h4>
-        <div class="proper-flex">
-          <h5>50</h5>
-          <h5>150</h5>
-          <h5>200</h5>
-        </div>
-        <div>
-          <h4>Rating</h4>
-          <div class="flex-row-center">
-            <input type="checkbox" />
-            <p class="ml-fil">4 Stars & above</p>
+        <div class="filter-card">
+          <div class="proper-flex head-zero-m">
+            <h4>Filters</h4>
+            <h4>ClearAll</h4>
           </div>
-        </div>
-        <h4>Sort by</h4>
-        <div class="flex-row-center">
-          <input type="radio" />
-          <p class="ml-fil">price-Low to High</p>
-        </div>
-        <div class="flex-row-center">
-          <input type="radio" />
-          <p class="ml-fil">price-High to Low</p>
+          <h4 class="head-zero-m">Price</h4>
+          <div class="proper-flex head-zero-m">
+            <h4 class="head-zero-m">100</h4>
+            <h4 class="head-zero-m">200</h4>
+            <h4 class="head-zero-m">500</h4>
+          </div>
+
+          <h4 class="head-zero-m">Rating</h4>
+          <div class="flex-row-center head-zero-m">
+            <input type="checkbox" />
+            <p class="head-zero-m">4 Stars & above</p>
+          </div>
+          <h4 class="head-zero-m">Sort by</h4>
+          <div class="flex-row-center">
+            <input type="radio" />
+            <p class="ml-fil">price-Low to High</p>
+          </div>
+          <div class="flex-row-center">
+            <input type="radio" />
+            <p class="ml-fil">price-High to Low</p>
+          </div>
         </div>
       </div>
 
       <!-- e-commerce homepage div -->
-      <div class="ver-card pos-rel-only">
+      <div class="ver-card pos-rel-only m-all">
         <img src="../../../images/ver-ecom.jpg" class="ver-card-image" />
         <div class="flex-center">
-          <p>India's premium Food you cant uy anywhere</p>
-          <h2 class="head-tm">$200</h2>
+          <p class="head-zero-m">India's premium Food you cant uy anywhere</p>
+          <h3 class="head-zero-m">$200</h3>
+          <button class="btn primary-btn p-card-btn">Go to cart</button>
         </div>
-        <button class="btn primary-btn p-card-btn">Go to cart</button>
         <div class="card-badge">
           <button class="like-icon icon-sm">
             <i class="fas fa-heart"></i>
@@ -69,16 +70,16 @@
       </div>
 
       <!-- card with dismiss -->
-      <div class="h-card flex-row">
+      <div class="h-card flex-row m-all">
         <img src="../../../images/ver-ecom.jpg" />
         <div class="flex-col-bw">
           <div>
             <p class="reduce-mtb">Taj's Premium Food</p>
-            <div class="flex-row reduce-mtb">
-              <h2 class="reduce-mtb">$50</h2>
-              <p class="reduce-mtb strike-rate">$80</p>
+            <div class="flex-row head-zero-m">
+              <h2 class="head-zero-m">$50</h2>
+              <h2 class="head-zero-m strike-rate">$80</h2>
             </div>
-            <p class="reduce-mtb">50% OFF</p>
+            <p class="head-zero-m">50% OFF</p>
           </div>
           <div class="flex-col reduce-mtb">
             <button class="reduce-mtb btn primary-btn">Go the Cart</button>
@@ -90,10 +91,10 @@
       </div>
 
       <!-- card foe zomoto homepage -->
-      <div class="sq-card">
+      <div class="sq-card m-all">
         <img src="../../../images/ver-ecom.jpg" class="width-image" />
 
-        <h1 class="reduce-mtb">Hyderbad Dum Biriyani</h1>
+        <h4 class="reduce-mtb">Hyderbad Dum Biriyani</h4>
         <p class="reduce-mtb">Indian,Chinese,Deserts</p>
         <div class="flex-row">
           <div class="flex-row-center rating">
@@ -107,7 +108,7 @@
         </div>
         <hr class="reduce-mtb" />
         <div class="flex-row-center">
-          <i class="fas fa-percentage offerIcon"></i>
+          <i class="fas fa-percentage offerIcon mr"></i>
           <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
         </div>
         <div class="badge">Newly added</div>
@@ -130,16 +131,18 @@
         </div>
         <div>
           <img src="../../../images/ver-ecom.jpg" class="width-image" />
-          <h4>A question from Nuclear Physics</h4>
-          <p>physics and biriyani is a awesome combination</p>
+          <h4 class="head-zero-m">A question from Nuclear Physics</h4>
+          <p class="head-zero-m">
+            physics and biriyani is a awesome combination
+          </p>
         </div>
         <div class="flex-row-center">
           <div class="flex-row-center">
-            <i class="fab fa-gratipay leftMargin"></i>
+            <i class="fab fa-gratipay leftMargin mr"></i>
             <p>535</p>
           </div>
           <div class="flex-row-center ml">
-            <i class="far fa-comment-alt leftMargin"></i>
+            <i class="far fa-comment-alt leftMargin mr"></i>
             <p>535</p>
           </div>
         </div>

@@ -4,10 +4,10 @@
 }
 :root {
   font-size: 120%;
-  --primary-color: #ff4848;
-  --secondary-color: #ff7676;
+  --primary-color: #ff3f6c;
+  --secondary-color: #ff6589;
   --teritiary-Color: #fde1e1;
-  --primary-border: 0.5em;
+  --primary-border: 0.1em;
   --shadow: 0 10px 40px rgb(0 0 0 / 0.4);
 }
 

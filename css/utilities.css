@@ -73,8 +73,12 @@ ul {
   height: 20em;
 }
 
-.head-tm {
-  margin-top: 0px;
+.head-zero-m {
+  margin: 0.2em;
+}
+
+.mr {
+  margin-right: 0.5em;
 }
 
 .ml-auto {
@@ -92,6 +96,10 @@ ul {
 
 .ul-mt {
   margin-top: 0.1rem;
+}
+
+.m-all {
+  margin: 2em;
 }
 
 .ml {
