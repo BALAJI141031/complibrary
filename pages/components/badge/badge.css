@@ -2,9 +2,8 @@
 
 .badge {
   border-style: solid;
-  border-width: 0px;
-  width: 2em;
-  height: 1.8em;
+  border-width: 0.2em;
+  border-color: #fff;
   border-radius: 50%;
   text-align: center;
   color: #fff;
@@ -13,8 +12,43 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+}
+
+.badge-lg {
   top: 0;
   right: -0.9em;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8em;
+}
+
+.badge-md {
+  top: -0.8em;
+  right: -0.7em;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8em;
+}
+
+.badge-icon-md {
+  top: -1.5em;
+  right: -1.5em;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.63em;
+}
+
+.badge-icon-sm {
+  top: -1.6em;
+  right: -1.6em;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.63em;
+}
+
+.badge-sm {
+  top: 0em;
+  right: -0.7em;
 }
 
 .icon-badge {
