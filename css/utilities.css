@@ -38,6 +38,12 @@ ul {
   position: relative;
 }
 
+.flex-row-bw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .comp-code {
   width: 40em;
   height: 20em;
@@ -62,6 +68,10 @@ ul {
 
 .ul-mt {
   margin-top: 0.1rem;
+}
+
+.header-icons {
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 800px) {

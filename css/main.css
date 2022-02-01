@@ -9,6 +9,10 @@
   --teritiary-Color: #fca5a5;
 }
 
+.header-font-family {
+  font-family: "Spark", sans-serif;
+}
+
 @media screen and (max-width: 800px) {
   :root {
     font-size: 100%;
