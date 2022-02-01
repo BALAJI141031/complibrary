@@ -4,9 +4,9 @@
 }
 :root {
   font-size: 120%;
-  --primary-color: #ff4848;
-  --secondary-color: #ff7676;
-  --teritiary-Color: #fca5a5;
+  --primary-color: #ff3f6c;
+  --secondary-color: #ff6589;
+  --teritiary-Color: #fde1e1;
 }
 
 @media screen and (max-width: 800px) {
