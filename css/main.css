@@ -1,12 +1,17 @@
 * {
   box-sizing: border-box;
-  font-family: "montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 :root {
-  font-size: 120%;
   --primary-color: #ff3f6c;
   --secondary-color: #ff6589;
   --teritiary-Color: #fde1e1;
+}
+
+.header-font-family {
+  font-family: "Spark", sans-serif;
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 800px) {
