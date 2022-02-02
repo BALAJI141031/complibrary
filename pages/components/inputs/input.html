@@ -5,31 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inputs</title>
-    <link rel="stylesheet" href="../inputs/input.css" />
     <link rel="stylesheet" href="../../../css/main.css" />
+    <link rel="stylesheet" href="../button/buttons.css" />
+    <link rel="stylesheet" href="./../../../css/component-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../../css/utilities.css" />
+    <link rel="stylesheet" href="../inputs/input.css" />
   </head>
   <body>
-    <h1>Input</h1>
-    <h2>Standard Input</h2>
-    <div class="input">
-      <input type="text" />
-      <div>password</div>
-    </div>
-    <h2>Validation</h2>
-    <div class="input">
-      <input type="text" class="success" />
-      <div>userName</div>
-    </div>
-    <div class="input">
-      <input type="text" class="warn" />
-      <div>password</div>
-    </div>
-    <div class="input">
-      <input type="text" class="error" />
-      <div>gmailId</div>
-    </div>
-    <p>
-      We can validate input in three ways like error warn and succuess inputs
-    </p>
+    <header class="flex-exact">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-row ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
+      </div>
+    </header>
+    <section class="comp-page-display">
+      <nav class="flex-center">
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <li>Avatar&Alert</li>
+            <li>Badge</li>
+            <li>Button</li>
+            <li>Badge</li>
+            <li>Card</li>
+            <li>Image</li>
+            <li>Input</li>
+            <li>List</li>
+            <li>Navigation</li>
+            <li>Toast</li>
+          </ul>
+        </div>
+      </nav>
+      <main class="comp-display">
+        <h1 class="s-input">Input</h1>
+        <h2>Standard Input</h2>
+        <div class="input">
+          <input type="text" />
+          <div>password</div>
+        </div>
+        <h2 class="v-input">Validation</h2>
+        <div class="input">
+          <input type="text" class="success" />
+          <div>userName</div>
+        </div>
+        <div class="input">
+          <input type="text" class="warn" />
+          <div>password</div>
+        </div>
+        <div class="input">
+          <input type="text" class="error" />
+          <div>gmailId</div>
+        </div>
+        <p>
+          We can validate input in three ways like error warn and succuess
+          inputs
+        </p>
+      </main>
+      <aside>
+        <h3 class="side-navigator">On this page you can get</h3>
+        <hr />
+        <h3><a href="#s-input">Standard Input</a></h3>
+        <h3><a href="#v-input">Input validation</a></h3>
+      </aside>
+    </section>
   </body>
 </html>
