@@ -1,3 +1,5 @@
+@import url(../../../css/main.css);
+
 .alert {
   width: max-content;
   background-color: aquamarine;
@@ -28,16 +30,16 @@
 }
 
 .avatar-lg {
-  height: 3em;
+  height: 5em;
 }
 .avatar-md {
-  height: 2.5em;
+  height: 4em;
 }
 .avatar-sm {
-  height: 2em;
+  height: 3em;
 }
 .avatar-xs {
-  height: 1.5em;
+  height: 2em;
 }
 
 .avatar-status {
@@ -50,13 +52,13 @@
 
 .online {
   background-color: palegreen;
-  bottom: 0.2em;
-  right: 0.2em;
+  bottom: 0.4em;
+  right: 0.4em;
 }
 .offline {
   background-color: red;
-  bottom: 0.1em;
-  right: 0.1em;
+  bottom: 0.2em;
+  right: 0.2em;
 }
 
 .dnd {
