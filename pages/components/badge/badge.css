@@ -6,7 +6,7 @@
   border-color: #fff;
   border-radius: 50%;
   text-align: center;
-  color: #fff;
+  color: #ffff;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
   height: 1.6em;
   border-radius: 50%;
   text-align: center;
-  color: #fff;
+  /* color: rgb(42, 41, 41); */
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -75,23 +75,23 @@
   position: absolute;
 }
 .badge-xl {
-  top: -0.8em;
+  top: 0em;
   right: -4.7em;
 }
 .badge-l {
-  top: -1em;
+  top: 0em;
   right: -4.6em;
 }
 
 .badge-xm {
-  top: -1.2em;
+  top: -0.2em;
   right: -4.7em;
 }
 .badge-m {
-  top: -1.5em;
+  top: -0.3em;
   right: -4.9em;
 }
 .badge-sm {
-  top: -1.6em;
+  top: -0.3em;
   right: -4.95em;
 }
