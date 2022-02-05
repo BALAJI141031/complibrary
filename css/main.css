@@ -1,17 +1,26 @@
+@import url(../css/component-page.css);
+@import url(../css/utilities.css);
+@import url(../css/);
+@import url(../css/homepage.css);
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
 :root {
-  --primary-color: #ff3f6c;
+  /* --primary-color: #ff3f6c;
+   */
+  --primary-color: #16c79a;
   --secondary-color: #ff6589;
-  --teritiary-Color: #fde1e1;
+  --teritiary-Color: #3f3947;
 }
 
 .header-font-family {
-  font-family: "Spark", sans-serif;
+  /* font-family: "Spark", sans-serif; */
   color: var(--primary-color);
+  font-family: "Archivo Black", sans-serif;
+  /* padding: 0 0 0.1rem 0.2rem; */
 }
 
 @media screen and (max-width: 800px) {
