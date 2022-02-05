@@ -14,6 +14,7 @@
   --primary-color: #16c79a;
   --secondary-color: #6caf9e;
   --teritiary-Color: #3f3947;
+  --shadow: box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .header-font-family {
