@@ -9,8 +9,8 @@
 }
 
 .card-image {
-  width: 13em;
-  height: 13em;
+  width: 12em;
+  height: 15em;
   /* border-style: solid; */
 }
 
@@ -24,12 +24,12 @@
 
 .filter-card {
   width: 15em;
-  /* border-style: solid; */
   padding: 0.2em;
-  /* border-width: 0.1px; */
-  /* border-color: var(--secondary-color); */
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
   border-radius: var(--primary-border);
-  box-shadow: var(--shadow);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
 }
 
 .ver-card-image {
@@ -39,12 +39,59 @@
 
 .ver-card {
   width: 13em;
-  box-shadow: var(--shadow);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
   padding: 0.3em;
   height: max-content;
+
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+}
+
+.overlay-card {
+  position: relative;
+  width: max-content;
+  /* background-color: red; */
+  margin-top: 2em;
 }
 .ver-card > div > p {
   text-align: center;
+}
+.overlay {
+  width: 100%;
+  position: absolute;
+  left: 0em;
+  top: 0em;
+  color: #ffff;
+  background-color: rgb(168, 168, 168);
+  opacity: 0.8;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* z-index: 1; */
+}
+.sensual {
+  opacity: 0.95;
+}
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  padding: 5px;
+  width: 100%;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  background-color: var(--primary-color);
 }
 .p-card-btn {
   width: 12em;
@@ -72,22 +119,34 @@
 /* horizantal card */
 
 .h-card {
-  width: 22em;
+  width: 30em;
+  /* width: max-content; */
   height: max-content;
   border-style: solid;
-  border-width: 0px;
-  box-shadow: var(--shadow);
+  border-width: 1px;
+  border-color: var(--secondary-color);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
   padding: 0.51em;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
 }
-
+.h-card > div > div > span {
+  color: var(--primary-color);
+  font-size: 1.3em;
+}
 .sq-card {
   width: 18em;
   height: max-content;
   border-style: solid;
   border-width: 0px;
-  box-shadow: var(--shadow);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
   padding: 0.51em;
   position: relative;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  /* box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3); */
 }
 
 .rating {
@@ -134,7 +193,7 @@
   width: 2.4em;
   height: 2.4em;
   border-style: solid;
-  border-width: 0.14em;
+  border-width: 1px;
   border-color: var(--primary-color);
   border-radius: 50%;
 }
