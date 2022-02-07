@@ -102,11 +102,11 @@ aside {
 }
 
 .component-border {
-  /* border-style: solid; */
-  /* border-width: 2px; */
-  /* border-color: var(--secondary-color); */
-  margin-right: 1em;
-  padding: 0.5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--secondary-color);
+  margin: 1em;
+  padding: 2em;
 }
 
 .flex-row-bw {
