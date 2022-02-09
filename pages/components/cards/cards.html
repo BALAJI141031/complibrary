@@ -21,17 +21,17 @@
     <title>Cards</title>
   </head>
   <body>
-    <header class="flex-exact">
+    <header class="flex-H-center-V">
       <h1 class="header-font-family">SPARK UI</h1>
       <!-- <h1>Spark UI</h1> -->
-      <div class="flex-row ml-auto">
+      <div class="flex-H ml-auto">
         <div>
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
         <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
       </div>
     </header>
-    <section class="comp-page-display">
+    <section class="page-layout">
       <nav class="flex-center">
         <div>
           <div>Getting Started</div>
@@ -54,47 +54,6 @@
         </div>
       </nav>
       <main>
-        <h1 id="h-v-cards">Horizantal/vertical Cards</h1>
-        <div class="filter-card">
-          <div class="proper-flex">
-            <h4>Filters</h4>
-            <h4>ClearAll</h4>
-          </div>
-          <h4 class="">Price</h4>
-          <div class="proper-flex">
-            <h4 class="">100</h4>
-            <h4 class="">200</h4>
-            <h4 class="">500</h4>
-          </div>
-
-          <h4 class="">Rating</h4>
-          <div class="flex-row-center">
-            <input type="radio" />
-            <p class="ml-fil">5 stars</p>
-          </div>
-          <h4 class="">Sort by</h4>
-          <div class="flex-row-center">
-            <input type="radio" />
-            <p class="ml-fil">price-Low to High</p>
-          </div>
-          <div class="flex-row-center">
-            <input type="radio" />
-            <p class="ml-fil">price-High to Low</p>
-          </div>
-        </div>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=32px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522filter-card%2522%253E%250A%253Cdiv%2520class%253D%2522proper-flex%2522%253E%250A%253Ch4%253EFilters%253C%252Fh4%253E%250A%253Ch4%253EClearAll%253C%252Fh4%253E%250A%253C%252Fdiv%253E%250A%253Ch4%2520class%253D%2522%2522%253EPrice%253C%252Fh4%253E%250A%253Cdiv%2520class%253D%2522proper-flex%2522%253E%250A%253Ch4%2520class%253D%2522%2522%253E100%253C%252Fh4%253E%250A%253Ch4%2520class%253D%2522%2522%253E200%253C%252Fh4%253E%250A%253Ch4%2520class%253D%2522%2522%253E500%253C%252Fh4%253E%253C%252Fdiv%253E%250A%253Ch4%2520class%253D%2522%2522%253ERating%253C%252Fh4%253E%250A%253Cdiv%2520class%253D%2522flex-row-center%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%253Cp%2520class%253D%2522ml-fil%2522%253E5%2520stars%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Ch4%2520class%253D%2522%2522%253ESort%2520by%253C%252Fh4%253E%250A%253Cdiv%2520class%253D%2522flex-row-center%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%253Cp%2520class%253D%2522ml-fil%2522%253Eprice-Low%2520to%2520High%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-row-center%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520%252F%253E%250A%253Cp%2520class%253D%2522ml-fil%2522%253Eprice-High%2520to%2520Low%253C%252Fp%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-          style="
-            width: 100%;
-            max-width: 100%;
-            height: 633px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -102,39 +61,25 @@
           scrambled it to make a type specimen book
         </p>
         <!-- card with dismiss -->
-        <div class="h-card flex-row">
+        <div class="h-card flex-H">
           <img src="../../../images/ver-ecom.jpg" class="card-image" />
-          <div class="flex-col-bw reduce-mtb">
-            <div class="reduce-mtb">
+          <div class="flex-V-sapce-between">
+            <div>
               <p>
                 Taj's Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry Food
               </p>
-              <span class="">Rs 299/-</span>
+              <span>Rs 299/-</span>
               <span class="strike-rate">Rs 599/-</span>
-              <p class="">50% OFF</p>
+              <p>50% OFF</p>
             </div>
-            <div class="flex-col">
-              <button class="reduce-mtb btn primary-btn">Go the Cart</button>
-              <button class="reduce-mtb btn secondary-btn">
-                Remove from WishList
-              </button>
+            <div class="flex-v">
+              <button class="btn primary-btn">Go the Cart</button>
+              <button class="btn secondary-btn">Remove from WishList</button>
             </div>
           </div>
         </div>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=32px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522h-card%2520flex-row%2522%253E%250A%253Cimg%2520src%253D%2522..%252F..%252F..%252Fimages%252Fver-ecom.jpg%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522flex-col-bw%2520reduce-mtb%2522%253E%250A%253Cdiv%2520class%253D%2522reduce-mtb%2522%253E%250A%253Cp%253E%250ATaj%27s%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%250Atypesetting%2520industry%2520Food%250A%253C%252Fp%253E%250A%253Cspan%2520class%253D%2522%2522%253ERs%2520299%252F-%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522strike-rate%2522%253ERs%2520599%252F-%253C%252Fspan%253E%250A%253Cp%2520class%253D%2522%2522%253E50%2525%2520OFF%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%253Cbutton%2520class%253D%2522reduce-mtb%2520btn%2520primary-btn%2522%253EGo%2520the%2520Cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522reduce-mtb%2520btn%2520secondary-btn%2522%253E%250ARemove%2520from%2520WishList%250A%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 100%;
-            max-width: 100%;
-            height: 585px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
+
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -145,11 +90,11 @@
         <!-- card foe zomoto homepage -->
         <h2 id="badge-cards">Card With badge</h2>
         <!-- e-commerce homepage div -->
-        <div class="ver-card pos-rel-only">
-          <img src="../../../images/ver-ecom.jpg" class="ver-card-image" />
-          <div class="flex-center">
-            <p class="head-zero-m">India's premium Food you cant uy anywhere</p>
-            <h3 class="head-zero-m">$200</h3>
+        <div class="ver-card pos-rel-Ecase">
+          <img src="../../../images/ver-ecom.jpg" />
+          <div class="flex-V-center-VH">
+            <p>India's premium Food you cant uy anywhere</p>
+            <h3>$200</h3>
             <button class="btn primary-btn p-card-btn">Go to cart</button>
           </div>
           <div class="card-badge">
@@ -159,29 +104,13 @@
           </div>
         </div>
 
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=32px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ver-card%2520pos-rel-only%2522%253E%250A%253Cimg%2520src%253D%2522..%252F..%252F..%252Fimages%252Fver-ecom.jpg%2522%2520class%253D%2522ver-card-image%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%253Cp%2520class%253D%2522head-zero-m%2522%253EIndia%27s%2520premium%2520Food%2520you%2520cant%2520uy%2520anywhere%253C%252Fp%253E%250A%253Ch3%2520class%253D%2522head-zero-m%2522%253E%2524200%253C%252Fh3%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520p-card-btn%2522%253EGo%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%253Cbutton%2520class%253D%2522like-icon%2520icon-sm%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 100%;
-            max-width: 100%;
-            height: 436px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-
         <!-- text-overlay cards -->
         <div class="overlay-card">
-          <div class="ver-card pos-rel-only">
-            <img src="../../../images/ver-ecom.jpg" class="ver-card-image" />
-            <div class="flex-center">
-              <p class="head-zero-m">
-                India's premium Food you cant uy anywhere
-              </p>
-              <h3 class="head-zero-m">$200</h3>
+          <div class="ver-card pos-rel-Ecase">
+            <img src="../../../images/ver-ecom.jpg" />
+            <div class="flex-V-center-VH">
+              <p>India's premium Food you cant uy anywhere</p>
+              <h3>$200</h3>
               <button class="btn primary-btn p-card-btn">Go to cart</button>
             </div>
             <div class="card-badge">
@@ -194,20 +123,6 @@
           <div class="overlay-text">Out Of Stock</div>
         </div>
 
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=32px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522overlay-card%2522%253E%250A%253Cdiv%2520class%253D%2522ver-card%2520pos-rel-only%2522%253E%250A%253Cimg%2520src%253D%2522..%252F..%252F..%252Fimages%252Fver-ecom.jpg%2522%2520class%253D%2522ver-card-image%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%253Cp%2520class%253D%2522head-zero-m%2522%253EIndia%27s%2520premium%2520Food%2520you%2520cant%2520uy%2520anywhere%253C%252Fp%253E%250A%253Ch3%2520class%253D%2522head-zero-m%2522%253E%2524200%253C%252Fh3%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520p-card-btn%2522%253EGo%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%253Cbutton%2520class%253D%2522like-icon%2520icon-sm%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522overlay%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522overlay-text%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 100%;
-            max-width: 100%;
-            margin-left: auto;
-            height: 521px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -216,23 +131,23 @@
         </p>
 
         <div class="sq-card">
-          <img src="../../../images/ver-ecom.jpg" class="width-image" />
-
-          <h4 class="reduce-mtb">Hyderbad Dum Biriyani</h4>
-          <p class="reduce-mtb">Indian,Chinese,Deserts</p>
-          <div class="flex-row-center">
-            <i class="fas fa-star"></i>
-            <p class="reduce-mtb p-text-t">4.8</p>
-            <div class="reduce-mtb flex-row">
-              <li class="reduce-mtb">35 MINS</li>
-              <li class="reduce-mtb">$4 half Plate</li>
+          <img src="../../../images/ver-ecom.jpg" />
+          <h4>Hyderbad Dum Biriyani</h4>
+          <p>Indian,Chinese,Deserts</p>
+          <div class="flex-space-between">
+            <div class="flex-H-center-V">
+              <i class="fas fa-star"></i>
+              <p>4.8</p>
             </div>
+            <p>35 MINS</p>
+            <p>$4 half Plate</p>
           </div>
-          <hr class="reduce-mtb" />
-          <div class="flex-row-center">
-            <i class="fas fa-percentage offerIcon mr"></i>
-            <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
-          </div>
+          <hr />
+          <!-- <div class="flex-H-space-around">
+            <i class="fas fa-percentage"></i>
+            <p>40% off|Use Balu1031</p>
+          </div> -->
+          <button class="btn primary-btn">check out</button>
           <div class="badge">Newly added</div>
         </div>
 
@@ -245,23 +160,24 @@
 
         <div class="overlay-card">
           <div class="sq-card">
-            <img src="../../../images/ver-ecom.jpg" class="width-image" />
+            <img src="../../../images/ver-ecom.jpg" />
 
-            <h4 class="reduce-mtb">Hyderbad Dum Biriyani</h4>
-            <p class="reduce-mtb">Indian,Chinese,Deserts</p>
-            <div class="flex-row-center">
+            <h4>Hyderbad Dum Biriyani</h4>
+            <p>Indian,Chinese,Deserts</p>
+            <div class="flex-space-between">
               <i class="fas fa-star"></i>
-              <p class="reduce-mtb p-text-t">4.8</p>
-              <div class="reduce-mtb flex-row">
-                <li class="reduce-mtb">35 MINS</li>
-                <li class="reduce-mtb">$4 half Plate</li>
+              <p>4.8</p>
+              <div class="flex-H-center-V">
+                <li>35 MINS</li>
+                <li>$4 half Plate</li>
               </div>
             </div>
-            <hr class="reduce-mtb" />
-            <div class="flex-row-center">
+            <hr />
+            <!-- <div class="flex-row-center">
               <i class="fas fa-percentage offerIcon mr"></i>
               <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
-            </div>
+            </div> -->
+            <button class="btn primary-btn">check out</button>
             <div class="badge">Newly added</div>
           </div>
           <div class="overlay"></div>
@@ -275,9 +191,9 @@
         <h1 id="media-cards">card with dismiss</h1>
 
         <div class="sq-card">
-          <div class="flex-row-bw">
-            <div class="flex-row-center">
-              <img src="../../../images/balu.jpg" class="profile-card" />
+          <div class="flex-H-space-bw">
+            <div class="flex-H-center-V">
+              <img src="../../../images/balu.jpg" class="profile-pic" />
               <div>
                 <p class="reduce-mtb">Balaji Narayana</p>
                 <p class="reduce-mtb">Aragonda Chittoor</p>
@@ -286,20 +202,22 @@
             <i class="fas fa-ellipsis-v"></i>
           </div>
           <div>
-            <img src="../../../images/ver-ecom.jpg" class="width-image" />
-            <h4 class="head-zero-m">A question from Nuclear Physics</h4>
-            <p class="head-zero-m">
-              physics and biriyani is a awesome combination
-            </p>
+            <h4>A question from Nuclear Physics</h4>
+            <p>physics and biriyani is a awesome combination</p>
           </div>
-          <div class="flex-row-center">
-            <div class="flex-row-center">
-              <i class="fab fa-gratipay leftMargin mr"></i>
-              <p>535</p>
+          <img src="../../../images/ver-ecom.jpg" />
+          <div class="flex-H-space-around">
+            <div class="flex-H-center-V">
+              <i class="fab fa-gratipay"></i>
+              <p class="m-l">535</p>
             </div>
-            <div class="flex-row-center ml">
-              <i class="far fa-comment-alt leftMargin mr"></i>
-              <p>535</p>
+            <div class="flex-H-center-V">
+              <i class="far fa-comment-alt"></i>
+              <p class="m-l">535</p>
+            </div>
+            <div class="flex-H-center-V">
+              <i class="far fa-comment-alt"></i>
+              <p class="m-l">535</p>
             </div>
           </div>
         </div>
@@ -311,9 +229,9 @@
         </p>
         <div class="overlay-card">
           <div class="sq-card">
-            <div class="flex-row-bw">
-              <div class="flex-row-center">
-                <img src="../../../images/balu.jpg" class="profile-card" />
+            <div class="flex-H-space-bw">
+              <div class="flex-H-center-V">
+                <img src="../../../images/balu.jpg" class="profile-pic" />
                 <div>
                   <p class="reduce-mtb">Balaji Narayana</p>
                   <p class="reduce-mtb">Aragonda Chittoor</p>
@@ -322,20 +240,22 @@
               <i class="fas fa-ellipsis-v"></i>
             </div>
             <div>
-              <img src="../../../images/ver-ecom.jpg" class="width-image" />
-              <h4 class="head-zero-m">A question from Nuclear Physics</h4>
-              <p class="head-zero-m">
-                physics and biriyani is a awesome combination
-              </p>
+              <h4>A question from Nuclear Physics</h4>
+              <p>physics and biriyani is a awesome combination</p>
             </div>
-            <div class="flex-row-center">
-              <div class="flex-row-center">
-                <i class="fab fa-gratipay leftMargin mr"></i>
-                <p>535</p>
+            <img src="../../../images/ver-ecom.jpg" />
+            <div class="flex-H-space-around">
+              <div class="flex-H-center-V">
+                <i class="fab fa-gratipay"></i>
+                <p class="m-l">535</p>
               </div>
-              <div class="flex-row-center ml">
+              <div class="flex-H-center-V">
                 <i class="far fa-comment-alt leftMargin mr"></i>
-                <p>535</p>
+                <p class="m-l">535</p>
+              </div>
+              <div class="flex-H-center-V">
+                <i class="far fa-comment-alt leftMargin mr"></i>
+                <p class="m-l">535</p>
               </div>
             </div>
           </div>
@@ -343,6 +263,34 @@
           <div class="overlay-text">
             <p>Sensual Content</p>
             <button class="btn secondary-btn">Tap To view</button>
+          </div>
+        </div>
+        <h1 id="h-v-cards">Horizantal/vertical Cards</h1>
+        <div class="filter-card">
+          <div class="flex-space-between">
+            <h4>Filters</h4>
+            <h4>ClearAll</h4>
+          </div>
+          <h4>Price</h4>
+          <div class="flex-space-between">
+            <h4>100</h4>
+            <h4>200</h4>
+            <h4>500</h4>
+          </div>
+
+          <h4>Rating</h4>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>5 stars</p>
+          </div>
+          <h4>Sort by</h4>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>price-Low to High</p>
+          </div>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>price-High to Low</p>
           </div>
         </div>
       </main>

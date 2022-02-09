@@ -8,12 +8,6 @@
   border-radius: var(--primary-border);
 }
 
-.card-image {
-  width: 12em;
-  height: 15em;
-  /* border-style: solid; */
-}
-
 .inside-card {
   /* border-style: solid; */
   display: flex;
@@ -32,22 +26,37 @@
   box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
 }
 
-.ver-card-image {
-  width: 100%;
-  height: 13em;
+.filter-card > div > p {
+  margin-left: 1em;
 }
 
 .ver-card {
-  width: 13em;
+  width: 14em;
   box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
   padding: 0.3em;
   height: max-content;
-
   border-style: solid;
   border-width: 0.1px;
   border-color: var(--secondary-color);
   border-radius: var(--primary-border);
   box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+}
+
+.ver-card > div > p {
+  margin-bottom: 0em;
+}
+
+.ver-card > div > h3 {
+  margin: 0.5em;
+}
+
+.ver-card > img {
+  width: 100%;
+  height: 13em;
+}
+
+.ver-card > div > button {
+  margin: 0.5em;
 }
 
 .overlay-card {
@@ -121,7 +130,7 @@
 .h-card {
   width: 30em;
   /* width: max-content; */
-  height: max-content;
+  /* height: 20em; */
   border-style: solid;
   border-width: 1px;
   border-color: var(--secondary-color);
@@ -135,6 +144,18 @@
   color: var(--primary-color);
   font-size: 1.3em;
 }
+
+.h-card > img {
+  width: 12em;
+  height: 15em;
+}
+.h-card > div {
+  margin-left: 0.5em;
+}
+
+.h-card > div > div > button {
+  margin-bottom: 0.5em;
+}
 .sq-card {
   width: 18em;
   height: max-content;
@@ -147,6 +168,35 @@
   border-color: var(--secondary-color);
   border-radius: var(--primary-border);
   /* box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3); */
+}
+.sq-card > h4 {
+  margin: 0.5em 0em 0em 0em;
+}
+
+.sq-card > p {
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.sq-card > .flex-space-between {
+  margin: 0em 0em 0em 0em;
+  background-color: var(--secondary-color);
+  padding: 0.2em;
+  color: #fff;
+}
+
+.sq-card > img {
+  width: 100%;
+  height: 15em;
+}
+
+.sq-card > .flex-space-between > div > i {
+  margin: 0em 0.3em 0.3em 0em;
+}
+
+.sq-card > button {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 15em;
 }
 
 .rating {
@@ -162,9 +212,8 @@
   width: 35%;
 }
 
-.width-image {
-  width: 100%;
-  height: 15em;
+.h-card > img > .flex-H-space-around > div {
+  background-color: red;
 }
 
 .reduce-mtb {
@@ -189,11 +238,11 @@
   color: #fff;
 }
 
-.profile-card {
-  width: 2.4em;
-  height: 2.4em;
+.profile-pic {
+  width: 4em;
+  height: 4em;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: var(--primary-color);
   border-radius: 50%;
 }
