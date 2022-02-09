@@ -35,7 +35,8 @@
   right: -1.5em;
   width: 1.5rem;
   height: 1.5rem;
-  font-size: 0.63em;
+  font-size: 0.7em;
+  background-color: #6b56f5;
 }
 
 .badge-icon-sm {
@@ -44,6 +45,7 @@
   width: 1.5rem;
   height: 1.5rem;
   font-size: 0.63em;
+  background-color: #039aff;
 }
 
 .badge-sm {
@@ -58,7 +60,6 @@
   height: 1.6em;
   border-radius: 50%;
   text-align: center;
-  /* color: rgb(42, 41, 41); */
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -75,23 +76,23 @@
   position: absolute;
 }
 .badge-xl {
-  top: 0em;
+  bottom: 0;
   right: -4.7em;
 }
 .badge-l {
-  top: 0em;
+  bottom: 0em;
   right: -4.6em;
 }
 
 .badge-xm {
-  top: -0.2em;
+  bottom: -0.2em;
   right: -4.7em;
 }
 .badge-m {
-  top: -0.3em;
+  bottom: -0.3em;
   right: -4.9em;
 }
 .badge-sm {
-  top: -0.3em;
-  right: -4.95em;
+  bottom: 0em;
+  right: -4.3em;
 }
