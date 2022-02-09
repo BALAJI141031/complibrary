@@ -17,16 +17,16 @@
                 
   </head>
   <body>
-    <header class="flex-exact">
+    <header class="flex-H-center-V">
       <h1 class=" header-font-family">SPARK UI</h1>
       <!-- <h1>Spark UI</h1> -->
-      <div class="flex-row ml-auto">
+      <div class="flex-H  ml-auto">
         <div><i class="fab fa-github-alt header-icons header-icons-m-lr"></i></div>
         
       </div>
     </header>
-    <section class="comp-page-display">
-      <nav class="flex-center" >
+    <section class="page-layout">
+      <nav class="flex-V-center-H" >
 
       <div>
         <div>Getting Started</div>
@@ -49,27 +49,26 @@
         
         </div>
       </nav>
-      <main class="comp-display">
+      <main >
         
-          <h1 class="head-tm">Alert</h1>
+        <div>
+          <h1 class="heading-m-t">Alert</h1>
           <h2 id="s-alerts">Standard Alerts</h2>
-          <div class="flex-space-around component-border">
-          <div class="flex-center">
-            <div class="alert">A simple Info alert</div>
-            <div class="alert alert-danger">A simple danger alert</div>
-            <div class="alert alert-warning">A simple Warning alert</div>
-              <div class="alert alert-success">A Simple Success alert</div>
- 
-             
+          <div class="component">
+          <div >
+            <div class="alert"><p>A simple Info alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-danger"><i class="fas fa-skull-crossbones"></i><p>A simple danger alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i><p>A simple Warning alert</p> <i class="fas fa-times ml-auto"></i></div>
+              <div class="alert alert-success"><i class="far fa-check-circle"></i><p>A simple success alert</p> <i class="fas fa-times ml-auto"></i></div>             
           </div>
          
           <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28110%2C245%2C223%2C1%29&t=material&wt=none&l=auto&width=320&ds=true&dsyoff=20px&dsblur=79px&wc=false&wa=true&pv=33px&ph=34px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522alert%2522%253EA%2520simple%2520Info%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520danger%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520Warning%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520Simple%2520Success%2520alert%253C%252Fdiv%253E"
           style=" max-width:100%; width: 100%; height: 180px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
-        </iframe>
-        
-      </div>
+          </iframe>
+        </div>
+      
           <p>
         The alert component has four variants
         <span class="span-style">alert-success</span>,<span class="span-style"
@@ -80,14 +79,9 @@
 
       <!-- avatar -->
           <h1 id="s-avatars">Avatar</h1>
-          <h2>Standard Avatars</h2>
-          <div class="flex-space-around component-border">
-          
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=true&code=%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-md%2522%252F%253E"
-            style="width: 529px; height: 171px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+          <h2>Standard Avatars</h2>  
+          <div class="component">
+          <div class="flex-H-space-around">  
         <img
           src="https://picturepan2.github.io/spectre/img/avatar-4.png"
           class="avatar avatar-lg"
@@ -105,6 +99,12 @@
           class="avatar avatar-xs"
         />   
         </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=true&code=%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-md%2522%252F%253E"
+            style="width:100%; max-width: 100%; height: 171px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+      </div>
           <p>
         The avatar Component has the 4 sizes,<span class="span-style"
           >avatar-lg</span
@@ -118,21 +118,23 @@
 
           <h2 id="avatars-status">Avatar with status</h2>
 
-          <div class="flex-space-around component-border">
+
+          <div class="component">
+          <div class="flex-H-space-around">
          
       <figure class="pos-rel">
         <img
           src="https://picturepan2.github.io/spectre/img/avatar-4.png"
           class="avatar avatar-lg"
         />
-        <div class="avatar-status online"></div>
+        <div class="avatar-status online">
       </figure>
       <figure class="pos-rel">
         <img
           src="https://picturepan2.github.io/spectre/img/avatar-4.png"
           class="avatar avatar-md"
         />
-        <div class="avatar-status offline""></div>
+        <div class="avatar-status offline"></div>
       </figure>
       <figure class="pos-rel">
         <img
@@ -141,13 +143,14 @@
         />
         <div class="avatar-status dnd"></div>
       </figure>
-       
+    </div>  
       <iframe
       src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=true&code=%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%253Cdiv%2520class%253D%2522avatar-status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-md%2522%252F%253E%250A%253Cdiv%2520class%253D%2522avatar-status%2520offline%2522%2522%253E%253C%252Fdiv%253E%250A%253C%252Ffigure%253E"
-      style="width: 529px; height: 301px; border:0; transform: scale(1); overflow:hidden;"
+      style="width:100%; max-width: 100%; height: 301px; border:0; transform: scale(1); overflow:hidden;"
       sandbox="allow-scripts allow-same-origin">
     </iframe>
-      </div>  
+      </div> 
+    </div> 
       <p>Avatars can have three stautus indicators <span class="span-style">Online</span >, <span class="span-style">offline</span>, <span class="span-style">dnd</span></p>      
     </main>
     <aside>
@@ -158,7 +161,7 @@
       <h3><a href="#avatars-status">Standard alerts</a></h3>               
     </aside>
   </section>
-  <footer class="flex-h-v">
+  <footer class="flex-V-center-VH">
     <div>Lets Connect Now!!!!</div>
     <ul>
       <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>

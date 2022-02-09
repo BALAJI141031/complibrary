@@ -9,11 +9,12 @@
 }
 
 :root {
-  /* --primary-color: #ff3f6c;
-   */
   --primary-color: #16c79a;
-  --secondary-color: #8cd3c2;
+  --secondary-color: #34c09d;
   --teritiary-Color: #3f3947;
+  --hover-color: rgb(212, 250, 250);
+  --anchor-el-color: #000000;
+  --footer-color: #fff;
 }
 
 .header-font-family {
