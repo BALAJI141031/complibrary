@@ -1,7 +1,8 @@
 .span-style {
-  background-color: rgb(212, 250, 250);
+  background-color: var(--secondary-color);
   border-radius: 0.3em;
   padding: 0 0.5em;
+  font-size: 1.5em;
 }
 
 .pos-rel {
@@ -11,6 +12,9 @@
   height: max-content;
 }
 
+.pos-rel-Ecase {
+  position: relative;
+}
 .icon-lg {
   font-size: 2rem;
   font-size: 2rem;
@@ -26,3 +30,11 @@
   /* color: #fff; */
   margin-left: 0.4em;
 }
+
+.icon-sm {
+  font-size: 1rem;
+  /* color: #fff; */
+  /* margin-left: 0.4em; */
+}
+
+/* we can remove margin here and can place in utilities */

@@ -22,6 +22,11 @@
   align-items: center;
 }
 
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-H-space-around {
   display: flex;
   justify-content: space-around;
@@ -29,7 +34,13 @@
   padding: 1em;
 }
 
-.flex-row-bw {
+.flex-V-sapce-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-H-space-bw {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,6 +139,27 @@ aside {
 
 .header-icons {
   font-size: 1.5em;
+}
+.m-l {
+  margin-left: 0.8em;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-row-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ver-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
 footer {

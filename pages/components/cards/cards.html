@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../cards/cards.css" />
+    <link rel="stylesheet" href="../../../css/main.css" />
+
+    <link rel="stylesheet" href="../../../css/utilities.css" />
+    <link rel="stylesheet" href="../button/buttons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link rel="stylesheet" href="../../components/button/buttons.css" />
+    <link rel="stylesheet" href="../../../css/component-page.css" />
+    <title>Cards</title>
+  </head>
+  <body>
+    <header class="flex-H-center-V">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-H ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
+      </div>
+    </header>
+    <section class="page-layout">
+      <nav class="flex-center">
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <li>Avatar&Alert</li>
+            <li>Badge</li>
+            <li>Button</li>
+            <li>Badge</li>
+            <li>Card</li>
+            <li>Image</li>
+            <li>Input</li>
+            <li>List</li>
+            <li>Navigation</li>
+            <li>Toast</li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+        <!-- card with dismiss -->
+        <div class="h-card flex-H">
+          <img src="../../../images/ver-ecom.jpg" class="card-image" />
+          <div class="flex-V-sapce-between">
+            <div>
+              <p>
+                Taj's Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry Food
+              </p>
+              <span>Rs 299/-</span>
+              <span class="strike-rate">Rs 599/-</span>
+              <p>50% OFF</p>
+            </div>
+
+            <div class="flex-v">
+              <button class="btn primary-btn">Go the Cart</button>
+              <button class="btn secondary-btn">Remove from WishList</button>
+            </div>
+          </div>
+        </div>
+        <pre><code class="language-html">
+          &lt;div class="h-card flex-H"&gt;
+          &lt;img src="../../../images/ver-ecom.jpg" class="card-image" /&gt;
+          &lt;div class="flex-V-sapce-between"&gt;
+          &lt;div&gt;
+          &lt;p&gt;
+          Taj's Lorem Ipsum is simply dummy text of the printing andtypesetting industry Food
+          &lt;/p&gt;
+          &lt;span&gt;Rs 299/- &lt;/span&gt;
+          &lt;span class="strike-rate"&gt;Rs 599/- &lt;/span&gt;
+          &lt;p&gt;50% OFF&lt;/p&gt;
+          &lt;/div&gt;
+  
+          &lt;div class="flex-v"&gt;
+          &lt;button class="btn primary-btn"&gt;Go the Cart&lt;/button&gt;
+          &lt;button class="btn secondary-btn">Remove from WishList &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+
+        <!-- card foe zomoto homepage -->
+
+        <h2 id="badge-cards">Card With badge</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+        <!-- e-commerce homepage div -->
+        <div class="ver-card pos-rel-Ecase">
+          <img src="../../../images/ver-ecom.jpg" />
+          <div class="flex-V-center-VH">
+            <p>India's premium Food you cant uy anywhere</p>
+            <h3>$200</h3>
+            <button class="btn primary-btn p-card-btn">Go to cart</button>
+          </div>
+          <div class="card-badge">
+            <button class="like-icon icon-sm">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+
+        <pre><code class="language-html">
+          &lt;div class="ver-card pos-rel-Ecase"&gt;
+            &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+            &lt;div class="flex-V-center-VH"&gt;
+              &lt;p&gt;India's premium Food you cant uy anywhere&lt;/p&gt;
+              &lt;h3&gt;$200&lt;/h3&gt;
+              &lt;button class="btn primary-btn p-card-btn"&gt;Go to cart&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="card-badge"&gt;
+              &lt;button class="like-icon icon-sm"&gt;
+                &lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+
+        <!-- text-overlay cards -->
+        <div class="overlay-card">
+          <div class="ver-card pos-rel-Ecase">
+            <img src="../../../images/ver-ecom.jpg" />
+            <div class="flex-V-center-VH">
+              <p>India's premium Food you cant uy anywhere</p>
+              <h3>$200</h3>
+              <button class="btn primary-btn p-card-btn">Go to cart</button>
+            </div>
+            <div class="card-badge">
+              <button class="like-icon icon-sm">
+                <i class="fas fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="overlay"></div>
+          <div class="overlay-text">Out Of Stock</div>
+        </div>
+
+        <pre><code class="language-html">
+          &lt;div class="overlay-card"&gt;
+            &lt;div class="ver-card pos-rel-Ecase"&gt;
+              &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+              &lt;div class="flex-V-center-VH"&gt;
+                &lt;p&gt;India's premium Food you cant uy anywhere&lt;/p&gt;
+                &lt;h3&gt;$200&lt;/h3&gt;
+                &lt;button class="btn primary-btn p-card-btn"&gt;Go to cart&lt;/button&gt;
+              &lt;/div&gt;
+              &lt;div class="card-badge"&gt;
+                &lt;button class="like-icon icon-sm"&gt;
+                  &lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="overlay"&gt;&lt;/div&gt;
+            &lt;div class="overlay-text"&gt;Out Of Stock&lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+
+        <div class="sq-card">
+          <img src="../../../images/ver-ecom.jpg" />
+          <h4>Hyderbad Dum Biriyani</h4>
+          <p>Indian,Chinese,Deserts</p>
+          <div class="flex-space-between">
+            <div class="flex-H-center-V">
+              <i class="fas fa-star"></i>
+              <p>4.8</p>
+            </div>
+            <p>35 MINS</p>
+            <p>$4 half Plate</p>
+          </div>
+          <hr />
+          <!-- <div class="flex-H-space-around">
+            <i class="fas fa-percentage"></i>
+            <p>40% off|Use Balu1031</p>
+          </div> -->
+          <button class="btn primary-btn">check out</button>
+          <div class="badge">Newly added</div>
+        </div>
+        <pre><code class="language-html">
+          &lt;div class="sq-card"&gt;
+            &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+            &lt;h4&gt;Hyderbad Dum Biriyani&lt;/h4&gt;
+            &lt;p&gt;Indian,Chinese,Deserts&lt;/p&gt;
+            &lt;div class="flex-space-between"&gt;
+              &lt;div class="flex-H-center-V"&gt;
+                &lt;i class="fas fa-star"&gt;&lt;/i&gt;
+                &lt;p&gt;4.8&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;p&gt;35 MINS&lt;/p&gt;
+              &lt;p&gt;$4 half Plate&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;hr /&gt;
+            &lt;button class="btn primary-btn"&gt;check out&lt;/button&gt;
+            &lt;div class="badge"&gt;Newly added&lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+
+        <div class="overlay-card">
+          <div class="sq-card">
+            <img src="../../../images/ver-ecom.jpg" />
+
+            <h4>Hyderbad Dum Biriyani</h4>
+            <p>Indian,Chinese,Deserts</p>
+            <div class="flex-space-between">
+              <i class="fas fa-star"></i>
+              <p>4.8</p>
+              <div class="flex-H-center-V">
+                <li>35 MINS</li>
+                <li>$4 half Plate</li>
+              </div>
+            </div>
+            <hr />
+            <!-- <div class="flex-row-center">
+              <i class="fas fa-percentage offerIcon mr"></i>
+              <p class="reduce-mtb p-text-t">40% off|Use Balu1031</p>
+            </div> -->
+            <button class="btn primary-btn">check out</button>
+            <div class="badge">Newly added</div>
+          </div>
+          <div class="overlay"></div>
+          <div class="overlay-text">Out Of Stock</div>
+        </div>
+
+        <pre><code class="language-html">
+         
+        &lt;div class="overlay-card"&gt;
+          &lt;div class="sq-card"&gt;
+            &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+
+            &lt;h4&gt;Hyderbad Dum Biriyani&lt;/h4&gt;
+            &lt;p&gt;Indian,Chinese,Deserts&lt;/p&gt;
+            &lt;div class="flex-space-between"&gt;
+              &lt;i class="fas fa-star"&gt;&lt;/i&gt;
+              &lt;p&gt;4.8&lt;/p&gt;
+              &lt;div class="flex-H-center-V"&gt;
+                &lt;li&gt;35 MINS&lt;/li&gt;
+                &lt;li&gt;$4 half Plate&lt;/li&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;hr /&gt;
+            &lt;button class="btn primary-btn"&gt;check out&lt;/button&gt;
+            &lt;div class="badge"&gt;Newly added&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="overlay"&gt;&lt;/div&gt;
+          &lt;div class="overlay-text"&gt;Out Of Stock&lt;/div&gt;
+        &lt;/div&gt;
+        </code></pre>
+        <!-- 
+        social media
+       -->
+
+        <h1 id="media-cards">card with dismiss</h1>
+
+        <div class="sq-card">
+          <div class="flex-H-space-bw">
+            <div class="flex-H-center-V">
+              <img src="../../../images/balu.jpg" class="profile-pic" />
+              <div>
+                <p class="reduce-mtb">Balaji Narayana</p>
+                <p class="reduce-mtb">Aragonda Chittoor</p>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div>
+            <h4>A question from Nuclear Physics</h4>
+            <p>physics and biriyani is a awesome combination</p>
+          </div>
+          <img src="../../../images/ver-ecom.jpg" />
+          <div class="flex-H-space-around">
+            <div class="flex-H-center-V">
+              <i class="fab fa-gratipay"></i>
+              <p class="m-l">535</p>
+            </div>
+            <div class="flex-H-center-V">
+              <i class="far fa-comment-alt"></i>
+              <p class="m-l">535</p>
+            </div>
+            <div class="flex-H-center-V">
+              <i class="far fa-comment-alt"></i>
+              <p class="m-l">535</p>
+            </div>
+          </div>
+        </div>
+
+        <pre><code class="language-html">
+       
+     
+
+        &lt;div class="sq-card"&gt;
+          &lt;div class="flex-H-space-bw"&gt;
+            &lt;div class="flex-H-center-V"&gt;
+              &lt;img src="../../../images/balu.jpg" class="profile-pic" /&gt;
+              &lt;div&gt;
+                &lt;p class="reduce-mtb"&gt;Balaji Narayana&lt;/p&gt;
+                &lt;p class="reduce-mtb"&gt;Aragonda Chittoor&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;h4&gt;A question from Nuclear Physics&lt;/h4&gt;
+            &lt;p&gt;physics and biriyani is a awesome combination&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+          &lt;div class="flex-H-space-around"&gt;
+            &lt;div class="flex-H-center-V"&gt;
+              &lt;i class="fab fa-gratipay"&gt;&lt;/i&gt;
+              &lt;p class="m-l"&gt;535&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="flex-H-center-V"&gt;
+              &lt;i class="far fa-comment-alt"&gt;&lt;/i&gt;
+              &lt;p class="m-l"&gt;535&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="flex-H-center-V"&gt;
+              &lt;i class="far fa-comment-alt"&gt;&lt;/i&gt;
+              &lt;p class="m-l"&gt;535&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      </code></pre>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book
+        </p>
+        <div class="overlay-card">
+          <div class="sq-card">
+            <div class="flex-H-space-bw">
+              <div class="flex-H-center-V">
+                <img src="../../../images/balu.jpg" class="profile-pic" />
+                <div>
+                  <p class="reduce-mtb">Balaji Narayana</p>
+                  <p class="reduce-mtb">Aragonda Chittoor</p>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div>
+              <h4>A question from Nuclear Physics</h4>
+              <p>physics and biriyani is a awesome combination</p>
+            </div>
+            <img src="../../../images/ver-ecom.jpg" />
+            <div class="flex-H-space-around">
+              <div class="flex-H-center-V">
+                <i class="fab fa-gratipay"></i>
+                <p class="m-l">535</p>
+              </div>
+              <div class="flex-H-center-V">
+                <i class="far fa-comment-alt leftMargin mr"></i>
+                <p class="m-l">535</p>
+              </div>
+              <div class="flex-H-center-V">
+                <i class="far fa-comment-alt leftMargin mr"></i>
+                <p class="m-l">535</p>
+              </div>
+            </div>
+          </div>
+          <div class="overlay sensual"></div>
+          <div class="overlay-text">
+            <p>Sensual Content</p>
+            <button class="btn secondary-btn">Tap To view</button>
+          </div>
+        </div>
+        <pre><code class="language-html">
+          &lt;div class="overlay-card"&gt;
+            &lt;div class="sq-card"&gt;
+              &lt;div class="flex-H-space-bw"&gt;
+                &lt;div class="flex-H-center-V"&gt;
+                  &lt;img src="../../../images/balu.jpg" class="profile-pic" /&gt;
+                  &lt;div&gt;
+                    &lt;p class="reduce-mtb"&gt;Balaji Narayana&lt;/p&gt;
+                    &lt;p class="reduce-mtb"&gt;Aragonda Chittoor&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;h4&gt;A question from Nuclear Physics&lt;/h4&gt;
+                &lt;p&gt;physics and biriyani is a awesome combination&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;img src="../../../images/ver-ecom.jpg" /&gt;
+              &lt;div class="flex-H-space-around"&gt;
+                &lt;div class="flex-H-center-V"&gt;
+                  &lt;i class="fab fa-gratipay"&gt;&lt;/i&gt;
+                  &lt;p class="m-l"&gt;535&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-H-center-V"&gt;
+                  &lt;i class="far fa-comment-alt leftMargin mr"&gt;&lt;/i&gt;
+                  &lt;p class="m-l"&gt;535&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-H-center-V"&gt;
+                  &lt;i class="far fa-comment-alt leftMargin mr"&gt;&lt;/i&gt;
+                  &lt;p class="m-l"&gt;535&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="overlay sensual"&gt;&lt;/div&gt;
+            &lt;div class="overlay-text"&gt;
+              &lt;p&gt;Sensual Content&lt;/p&gt;
+              &lt;button class="btn secondary-btn"&gt;Tap To view&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+        <h1 id="h-v-cards">Horizantal/vertical Cards</h1>
+
+        <div class="filter-card">
+          <div class="flex-space-between">
+            <h4>Filters</h4>
+            <h4>ClearAll</h4>
+          </div>
+          <h4>Price</h4>
+          <div class="flex-space-between">
+            <h4>100</h4>
+            <h4>200</h4>
+            <h4>500</h4>
+          </div>
+
+          <h4>Rating</h4>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>5 stars</p>
+          </div>
+          <h4>Sort by</h4>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>price-Low to High</p>
+          </div>
+          <div class="flex-H-center-V">
+            <input type="checkbox" />
+            <p>price-High to Low</p>
+          </div>
+        </div>
+
+        <pre><code class="language-html">
+          &lt;div class="filter-card"&gt;
+          &lt;div class="flex-space-between"&gt;
+            &lt;h4&gt;Filters&lt;/h4&gt;
+            &lt;h4&gt;ClearAll&lt;/h4&gt;
+          &lt;/div&gt;
+          &lt;h4&gt;Price&lt;/h4&gt;
+          &lt;div class="flex-space-between"&gt;
+            &lt;h4&gt;100&lt;/h4&gt;
+            &lt;h4&gt;200&lt;/h4&gt;
+            &lt;h4&gt;500&lt;/h4&gt;
+          &lt;/div&gt;
+
+          &lt;h4&gt;Rating&lt;/h4&gt;
+          &lt;div class="flex-H-center-V"&gt;
+            &lt;input type="checkbox" /&gt;
+            &lt;p&gt;5 stars&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;h4&gt;Sort by&lt;/h4&gt;
+          &lt;div class="flex-H-center-V"&gt;
+            &lt;input type="checkbox" /&gt;
+            &lt;p&gt;price-Low to High&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="flex-H-center-V"&gt;
+            &lt;input type="checkbox" /&gt;
+            &lt;p&gt;price-High to Low&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        </code></pre>
+      </main>
+      <aside>
+        <h3 class="side-navigator">On this page you can get</h3>
+        <hr />
+        <h3><a href="#h-v-cards">vertical or horizantal cards</a></h3>
+        <h3><a href="#badge-cards">cards with badges</a></h3>
+        <h3><a href="#media-cards">cards with icon or dismiss</a></h3>
+      </aside>
+      <button class="btn float stick">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
