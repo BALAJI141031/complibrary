@@ -17,6 +17,10 @@
     />
     <link rel="stylesheet" href="../../../css/utilities.css" />
     <link rel="stylesheet" href="../inputs/input.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
   </head>
   <body>
     <header class="flex-H-center-V">
@@ -58,19 +62,43 @@
           <input type="text" />
           <div>Label</div>
         </div>
+        <pre><code class="language-html">
+         &lt;div class="input"&gt;
+           &lt;input type="text" /&gt;
+           &lt;div&gt;Label&lt;/div&gt;
+         &lt;/div&gt;
+        </code></pre>
         <h2 class="v-input">Validation</h2>
         <div class="input">
           <input type="text" class="success" />
           <div>Label</div>
         </div>
+        <pre><code class="language-html">
+          &lt;div class="input"&gt;
+            &lt;input type="text" class="success" /&gt;
+            &lt;div&gt;Label&lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
         <div class="input">
           <input type="text" class="warn" />
           <div>Label</div>
         </div>
+        <pre><code class="language-html">
+          &lt;div class="input"&gt;
+            &lt;input type="text" class="warn" /&gt;
+            &lt;div&gt;Label&lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
         <div class="input">
           <input type="text" class="error" />
           <div>Label</div>
         </div>
+        <pre><code class="language-html">
+          &lt;div class="input"&gt;
+            &lt;input type="text" class="error" /&gt;
+            &lt;div&gt;Label&lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
         <p>
           We can validate input in three ways like error warn and succuess
           inputs
@@ -83,5 +111,9 @@
         <h3><a href="#v-input">Input validation</a></h3>
       </aside>
     </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
