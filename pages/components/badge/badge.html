@@ -18,6 +18,8 @@
       referrerpolicy="no-referrer"
     />
     <link href="http://fonts.cdnfonts.com/css/spark" rel="stylesheet">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
   </head>
   <body>
     <header class="flex-H-center-V">
@@ -95,11 +97,15 @@
           <div class="badge badge-md">99+</div>
         </figure>
       </div>
-      <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-lg%2522%250A%252F%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-lg%2522%253E99%252B%253C%252Fdiv%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522pos-rel%2522%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%250Aclass%253D%2522avatar%2520avatar-md%2522%250A%252F%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-md%2522%253E99%252B%253C%252Fdiv%253E%250A%253C%252Ffigure%253E"
-      style="width: 100%;max-width: 100%; height: 469px; border:0; transform: scale(1); overflow:hidden;"
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
+      <pre><code class="language-html">
+      &lt;figure class="pos-rel"&gt;
+      &lt;img
+      src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+      class="avatar avatar-lg"
+      /&gt;
+      &lt;class="badge badge-md"&gt;99+&lt;div&gt;
+      &lt;/figure&gt;
+    </code></pre>
   </div>
       <p>
         Badges can be use in two ways one is with count other one is without
@@ -129,11 +135,15 @@
           <div class="badge badge-icon-sm">99+</div>
         </div>
       </div>
-      <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522pos-rel%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520icon-lg%2522%253E%253C%252Fi%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-icon-md%2522%253E99%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522pos-rel%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520icon-md%2522%253E%253C%252Fi%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-icon-sm%2522%253E99%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-  style="width: 100%; max-width: 100%; height: 341px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+           
+    <pre><code class="language-html">
+      &lt;div class="pos-rel"&gt;
+      &lt;i
+      class="fas fa-bell icon-md"&gt;
+      &lt;/i&gt;;
+      &lt;div class="avatar-status online"&gt;&lt;div&gt;
+      &lt;/div&gt;
+    </code></pre>
 </div>
       <p>Almost all websites have icons with badges so here you can get medium icon and small icon with badges</p>
       <!-- <h2 id="t-badges">Text with Badges</h2>
@@ -186,5 +196,8 @@
       <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
     </ul>
   </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
   </body>
 </html>
