@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+
+    <link rel="stylesheet" href="/pages/components/Alerts/alerts.css" />
+    <link rel="stylesheet" href="./../../../css/component-page.css" />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../../../css/utilities.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="http://fonts.cdnfonts.com/css/spark" rel="stylesheet">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+  </head>
+  <body>
+    <header class="flex-H-center-V">
+      <h1 class=" header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-H ml-auto">
+        <div><i class="fab fa-github-alt header-icons header-icons-m-lr"></i></div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
+      </div>
+    </header>
+    <section class="page-layout">
+      <nav class="flex-V-center-H" >
+
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+            <div>Components</div>
+            <ul class="ul-mt">
+              <li >Avatar&Alert</li>
+              <li >Badge</li>
+              <li >Button</li>
+              <li >Badge</li>
+              <li >Card</li>
+              <li >Image</li>
+              <li >Input</li>
+              <li >List</li>
+              <li >Navigation</li>
+              <li >Toast</li>
+            </ul>
+          
+          </div>
+        </nav>
+    
+
+    <main>
+      <h1>Badge</h1>
+      <h2 id="a-badges">Avatars with Badge</h2>
+      <div class="component">
+      <div class="flex-H-space-around ">
+        <figure class="pos-rel">
+          <img
+            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+            class="avatar avatar-lg"
+          />
+          <div class="badge badge-lg">9</div>
+        </figure>
+        <figure class="pos-rel">
+          <img
+            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+            class="avatar avatar-lg"
+          />
+          <div class="badge badge-lg">99</div>
+        </figure>
+        <figure class="pos-rel">
+          <img
+            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+            class="avatar avatar-lg"
+          />
+          <div class="badge badge-lg">99+</div>
+        </figure>
+        <figure class="pos-rel">
+          <img
+            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+            class="avatar avatar-md"
+          />
+          <div class="badge badge-md">99+</div>
+        </figure>
+        <figure class="pos-rel">
+          <img
+            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+            class="avatar avatar-md"
+          />
+          <div class="badge badge-md">99+</div>
+        </figure>
+      </div>
+      <pre><code class="language-html">
+      &lt;figure class="pos-rel"&gt;
+      &lt;img
+      src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+      class="avatar avatar-lg"
+      /&gt;
+      &lt;class="badge badge-md"&gt;99+&lt;div&gt;
+      &lt;/figure&gt;
+    </code></pre>
+  </div>
+      <p>
+        Badges can be use in two ways one is with count other one is without
+        count so for without count we have code in avatar section
+      </p>
+      <h2 id="i-badges">Icons With Badge</h2>
+      <div class="component">
+      <div class="flex-H-space-around ">
+        <div class="pos-rel">
+          <i class="fas fa-cart-plus icon-lg"></i>
+          <div class="badge badge-icon-md">99+</div>
+        </div>
+        <div class="pos-rel">
+          <i class="fas fa-cart-plus icon-md"></i>
+          <div class="badge badge-icon-sm">99+</div>
+        </div>
+        <div class="pos-rel">
+          <i class="fas fa-envelope-open-text icon-lg"></i>
+          <div class="badge badge-icon-md">9</div>
+        </div>
+        <div class="pos-rel">
+          <i class="fas fa-bell icon-lg"></i>
+          <div class="badge badge-icon-md">99+</div>
+        </div>
+        <div class="pos-rel">
+          <i class="fas fa-bell icon-md"></i>
+          <div class="badge badge-icon-sm">99+</div>
+        </div>
+      </div>
+           
+    <pre><code class="language-html">
+      &lt;div class="pos-rel"&gt;
+      &lt;i
+      class="fas fa-bell icon-md"&gt;
+      &lt;/i&gt;;
+      &lt;div class="avatar-status online"&gt;&lt;div&gt;
+      &lt;/div&gt;
+    </code></pre>
+</div>
+      <p>Almost all websites have icons with badges so here you can get medium icon and small icon with badges</p>
+      <!-- <h2 id="t-badges">Text with Badges</h2>
+  <div class="component">
+    
+      <div class="pos-rel">
+        <h1>testing you are</h1>
+        <p class=" text-badge badge-xl">New offer</p>
+      </div>
+      <div class="pos-rel">
+        <h2>testing you are</h2>
+        <p class=" text-badge badge-l">New offer</p>
+      </div>
+      <div class="pos-rel">
+        <h3>testing you are</h3>
+        <p class=" text-badge badge-xm">New offer</p>
+      </div>
+      <div class="pos-rel">
+        <h4>testing you are</h4>
+        <p class=" text-badge badge-m">New offer</p>
+      </div>
+      <div class="pos-rel">
+        <h5>testing you are</h5>
+        <p class=" text-badge badge-sm">New offer</p>
+      </div>
+    
+ 
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2822%2C199%2C154%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522pos-rel%2522%253E%250A%253Ch1%253EExample%2520for%2520text%2520with%2520badges%253Ch1%253E%250A%253Cp%2520class%253D%2522text-badge%2520badge-xl%2522%253ENew%2520Offer%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522pos-rel%2522%253E%250A%253Ch2%253EExample%2520for%2520text%2520with%2520badges%253Ch2%253E%250A%253Cp%2520class%253D%2522text-badge%2520badge-l%2522%253ENew%2520Offer%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522pos-rel%2522%253E%250A%253Ch3%253EExample%2520for%2520text%2520with%2520badges%253Ch3%253E%250A%253Cp%2520"
+  style="width: 100%; max-width: 100%; height: 405px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+</div>
+    <p>Many websites will have text with text badges like this which you are seeing here so it will help us to use in e-commerce websites</p>    -->
+    </main>
+    <aside>
+      <h3 class="side-navigator">On this page you can get</h3>
+      <hr/>
+      <h3><a href="#a-badges">Avatars with Badge</a></h3>
+      <h3><a href="#i-badges">Icons with Badge</a></h3>
+      <h3><a href="#t-badges">Text with Badge</a></h3>               
+    </aside>
+  </section>
+  <footer class="flex-V-center-VH">
+    <div>Lets Connect Now!!!!</div>
+    <ul>
+      <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+      <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+      <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+    </ul>
+  </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  </body>
+</html>
