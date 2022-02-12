@@ -10,3 +10,19 @@
   width: max-content;
   height: max-content;
 }
+
+.icon-lg {
+  font-size: 2rem;
+  font-size: 2rem;
+}
+.icon-mr {
+  font-size: 1.5rem;
+  /* color: #fff; */
+  margin-right: 0.4em;
+}
+
+.icon-ml {
+  font-size: 1.5rem;
+  /* color: #fff; */
+  margin-left: 0.4em;
+}
