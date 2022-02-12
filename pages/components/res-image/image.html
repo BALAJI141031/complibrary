@@ -15,6 +15,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
     <link rel="stylesheet" href="../../../css/utilities.css" />
     <link rel="stylesheet" href="../inputs/input.css" />
     <link rel="stylesheet" href="../res-image/image.css" />
@@ -62,6 +66,15 @@
             class="res-image"
           />
         </div>
+        <pre><code class="language-html">
+          &lt;div&gt;
+            &lt;img
+              src="../../../assets/res-img.jpg"
+              alt="res-img"
+              class="res-image"
+            /&gt;
+          &lt;/div&gt;
+        </code></pre>
         <h2 class="v-input">Round image</h2>
 
         <img
@@ -69,6 +82,14 @@
           alt="res-round-img"
           class="round-image"
         />
+
+        <pre><code class="language-html">
+          &lt;img
+          src="../../../assets/res-img.jpg"
+          alt="res-round-img"
+          class="round-image"
+        /&gt;
+        </code></pre>
 
         <p>
           We can validate input in three ways like error warn and succuess
@@ -82,5 +103,9 @@
         <h3><a href="#v-input">Input validation</a></h3>
       </aside>
     </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
