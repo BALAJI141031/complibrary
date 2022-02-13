@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.flex-H-center-H {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-H-center-V {
   display: flex;
   align-items: center;
