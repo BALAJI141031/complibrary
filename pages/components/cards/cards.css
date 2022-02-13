@@ -124,6 +124,22 @@
   width: 2em;
   height: 2em;
 }
+.overlay-card {
+  background-image: url(../../../images/food-hr.jpg);
+  width: 15em;
+  height: 15em;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.2em;
+}
+
+.overlay-card > h1 {
+  margin: 0px;
+}
 
 /* horizantal card */
 
