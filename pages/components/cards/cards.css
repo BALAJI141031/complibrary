@@ -141,6 +141,13 @@
   margin: 0px;
 }
 
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12em;
+}
+
 /* horizantal card */
 
 .h-card {
