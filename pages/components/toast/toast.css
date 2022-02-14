@@ -1,0 +1,39 @@
+.toast {
+  font-size: 1.2em;
+  width: 10%;
+  height: 2em;
+  padding: 0.1em;
+  border-radius: 5%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#succuessToast {
+  display: none;
+}
+#WarnToast {
+  display: none;
+}
+#errorToast {
+  display: none;
+}
+.succuess {
+  top: 10%;
+  right: 3%;
+  background-color: var(--primary-color);
+}
+
+.warn {
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--secondary-color);
+}
+
+.error {
+  bottom: 5%;
+  right: 50%;
+  background-color: var(--badge-color);
+  color: var(--pale-white);
+}
