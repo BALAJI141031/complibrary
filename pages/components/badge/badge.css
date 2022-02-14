@@ -32,7 +32,7 @@
 
 .badge-icon-md {
   top: -1.5em;
-  left: -1.5em;
+  right: -1.5em;
   width: 1.5rem;
   height: 1.5rem;
   font-size: 0.7em;
@@ -40,8 +40,8 @@
 }
 
 .badge-icon-sm {
-  bottom: -1.6em;
-  left: -1.6em;
+  top: -1.6em;
+  right: -1.6em;
   width: 1.5rem;
   height: 1.5rem;
   font-size: 0.63em;
