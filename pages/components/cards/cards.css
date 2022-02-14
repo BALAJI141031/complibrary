@@ -125,7 +125,7 @@
   height: 2em;
 }
 .hero-overlay-card {
-  background-image: url(../../../images/food-hr.jpg);
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/aslkljzahxanxy5vge5y");
   width: 15em;
   height: 15em;
   background-size: cover;
