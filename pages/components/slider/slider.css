@@ -1,0 +1,9 @@
+.grid-50-50-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-50-50-50-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
