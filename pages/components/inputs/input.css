@@ -15,7 +15,7 @@
   position: absolute;
   top: -0.5em;
   left: 1.5em;
-  background-color: #fff;
+  background-color: var(--pale-white);
 }
 
 .success {
