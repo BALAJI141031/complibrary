@@ -174,8 +174,9 @@ aside {
 
 footer {
   height: 10em;
+  width: 100%;
   background-color: var(--teritiary-Color);
-  padding: 2em;
+  /* padding: 2em; */
   color: var(--footer-color);
 }
 
