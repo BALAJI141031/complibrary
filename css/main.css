@@ -7,6 +7,10 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body > section{
+  position: relative;
+  min-height: 100vh;
+}
 
 :root {
   --primary-color: #16c79a;
@@ -23,6 +27,7 @@
   --pale-white:#fff;
   --badge-color:#ff5677;
   --hero-color:#282c3f;
+  --grey-text:#C0A080;
 }
 
 .header-font-family {

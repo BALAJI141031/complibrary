@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../allComponents.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <title>toast</title>
+  </head>
+  <body>
+    <header class="flex-H-center-V">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-H ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+      </div>
+    </header>
+    <section class="page-layout">
+      <nav class="flex-V-center-H">
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
+            <a href="../badge/badge.html"><li>Badge</li></a>
+            <a href="../button/buttons.html"><li>Button</li></a>
+            <a href="../cards/cards.html"><li>Card</li></a>
+            <a></a>
+            <li>Image</li>
+            <a href="../inputs/input.html"><li>Input</li></a>
+            <li>List</li>
+            <li>Navigation</li>
+            <li>Toast</li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <h1>Toast</h1>
+        <p>
+          This component can be used for toast or snackbar component. Toast is
+          mostly used to show feedback message. Snackbar is to used show message
+          that need user action
+        </p>
+        <div>
+          <button class="btn primary-btn"id="succuess">success</button>
+          <button class="btn secondary-btn"id="warn">warn</button>
+          <button class="btn primary-btn"id="error">error toast</button>
+        </div>
+        <div id="succuessToast">
+          <div class="toast succuess">
+            <p>Saved!</p>
+            <span id="closeBtn">&times;</span>
+          </div>
+        </div>
+        
+        <pre><code class="language-html">
+          &lt;div id="succuessToast"&gt;
+            &lt;div class="toast succuess"&gt;
+              &lt;p&gt;Saved!&lt;/p&gt;
+              &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+        
+
+
+       
+        <div id="WarnToast">
+          <div class="toast warn">
+            <p>Saved!</p>
+            <span id="closeBtn">&times;</span>
+          </div>
+        </div>
+        <pre class="language-html">
+          <code>
+            &lt;div id="WarnToast"&gt;
+              &lt;div class="toast warn"&gt;
+                &lt;p&gt;Saved!&lt;/p&gt;
+                &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          </code>
+        </pre>
+        <div id="errorToast">
+          <div class="toast error">
+            <p>Saved!</p>
+            <span id="closeBtn">&times;</span>
+          </div>
+        </div>
+        <pre><code class="language-html">
+          &lt;div id="errorToast"&gt;
+            &lt;div class="toast error"&gt;
+              &lt;p&gt;Saved!&lt;/p&gt;
+              &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+            &lt;/div&gt;
+        </code></pre>
+        <h2>Js for toast</h2>
+        <pre><code class="js">
+          let successBtn = document.getElementById("succuess");
+          let warnBtn = document.getElementById("warn");  
+          let errorBtn = document.getElementById("error");
+
+          let successEl = document.getElementById("succuessToast");
+          // console.log(successEl);
+
+          let warnEl = document.getElementById("WarnToast");
+
+          let errorEl = document.getElementById("errorToast");    
+
+          // event listens
+
+          const toast = (e) => {
+          console.log(e.target.innerText);
+          if (e.target.innerText === "success") {
+           successEl.style.display = "block";
+           setTimeout(() => {
+           successEl.style.display = "none";
+            }, 2000);
+          } else if (e.target.innerText === "warn") {
+          warnEl.style.display = "block";
+           setTimeout(() => {
+            warnEl.style.display = "none";
+          }, 2000);
+          } else {
+          errorEl.style.display = "block";
+           setTimeout(() => {
+          errorEl.style.display = "none";
+         }, 2000);
+  }
+};
+successBtn.addEventListener("click", toast);
+warnBtn.addEventListener("click", toast);
+errorBtn.addEventListener("click", toast);
+
+        </code></pre>
+
+      </main>
+    </section>
+    <footer class="flex-V-center-VH">
+      <div>Lets Connect Now!!!!</div>
+      <ul>
+        <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+        <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+        <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+      </ul>
+    </footer>
+    <script src="./toast.js"></script>
+    <script src="./modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
