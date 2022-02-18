@@ -1,0 +1,84 @@
+.h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.h3 {
+  font-size: 1.17em;
+  font-weight: bolder;
+}
+
+.h4 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.h5 {
+  font-size: 0.83em;
+  font-weight: bolder;
+}
+
+.h6 {
+  font-size: 0.67em;
+  font-weight: bolder;
+}
+
+.text-grey {
+  color: var(--grey-text);
+}
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
+
+.ul-item-solid {
+  list-style-type: disc;
+  font-size: 1em;
+}
+ul > .ul-item-solid:hover {
+  background-color: transparent;
+}
+.ul-item-square {
+  list-style-type: square;
+  font-size: 1em;
+}
+
+ul > .ul-item-square:hover {
+  background-color: transparent;
+}
+
+.ul-item-circle {
+  list-style-type: circle;
+  font-size: 1em;
+}
+
+ul > .ul-item-circle:hover {
+  background-color: transparent;
+}
+
+.ol-item-roman {
+  list-style-type: upper-roman;
+}
+.ol-item-alpha {
+  list-style-type: lower-alpha;
+}
+
+.ol-item-upperAlpha {
+  list-style-type: upper-alpha;
+}
+
+.stacked-List li {
+  list-style-type: none;
+  background-color: transparent;
+}

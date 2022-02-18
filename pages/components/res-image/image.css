@@ -1,0 +1,24 @@
+.res-image {
+  width: 100%;
+  height: auto;
+}
+
+main > div {
+  margin: 5em;
+}
+
+.round-image {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+}
+
+.round-image:hover {
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.res-image:hover {
+  border-radius: 5%;
+  cursor: pointer;
+}

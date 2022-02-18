@@ -1,0 +1,27 @@
+.flex-V-center-VH > h1 {
+  /* background-color: aqua; */
+  font-size: 4em;
+  width: 10em;
+  text-align: center;
+}
+
+.flex-V-center-VH > p {
+  font-size: 1.5em;
+  width: 30em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* .flex-V-center-VH > div:nth-of-type(2) > p > pre > code {
+  font-size: 1em;
+  width: 30em;
+  margin-top: 0px;
+} */
+
+p {
+  font-size: 1.5em;
+}
+
+pre {
+  font-size: 1.5em;
+}
