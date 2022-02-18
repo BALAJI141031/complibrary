@@ -58,9 +58,9 @@
           that need user action
         </p>
         <div>
-          <button id="succuess">success</button>
-          <button id="warn">warn</button>
-          <button id="error">error toast</button>
+          <button class="btn primary-btn"id="succuess">success</button>
+          <button class="btn secondary-btn"id="warn">warn</button>
+          <button class="btn primary-btn"id="error">error toast</button>
         </div>
         <div id="succuessToast">
           <div class="toast succuess">
@@ -68,21 +68,103 @@
             <span id="closeBtn">&times;</span>
           </div>
         </div>
+        
+        <pre><code class="language-html">
+          &lt;div id="succuessToast"&gt;
+            &lt;div class="toast succuess"&gt;
+              &lt;p&gt;Saved!&lt;/p&gt;
+              &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+        
 
+
+       
         <div id="WarnToast">
           <div class="toast warn">
             <p>Saved!</p>
             <span id="closeBtn">&times;</span>
           </div>
         </div>
+        <pre class="language-html">
+          <code>
+            &lt;div id="WarnToast"&gt;
+              &lt;div class="toast warn"&gt;
+                &lt;p&gt;Saved!&lt;/p&gt;
+                &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          </code>
+        </pre>
         <div id="errorToast">
           <div class="toast error">
             <p>Saved!</p>
             <span id="closeBtn">&times;</span>
           </div>
         </div>
+        <pre><code class="language-html">
+          &lt;div id="errorToast"&gt;
+            &lt;div class="toast error"&gt;
+              &lt;p&gt;Saved!&lt;/p&gt;
+              &lt;span id="closeBtn"&gt;&times;&lt;/span&gt;
+            &lt;/div&gt;
+        </code></pre>
+        <h2>Js for toast</h2>
+        <pre><code class="js">
+          let successBtn = document.getElementById("succuess");
+          let warnBtn = document.getElementById("warn");  
+          let errorBtn = document.getElementById("error");
+
+          let successEl = document.getElementById("succuessToast");
+          // console.log(successEl);
+
+          let warnEl = document.getElementById("WarnToast");
+
+          let errorEl = document.getElementById("errorToast");    
+
+          // event listens
+
+          const toast = (e) => {
+          console.log(e.target.innerText);
+          if (e.target.innerText === "success") {
+           successEl.style.display = "block";
+           setTimeout(() => {
+           successEl.style.display = "none";
+            }, 2000);
+          } else if (e.target.innerText === "warn") {
+          warnEl.style.display = "block";
+           setTimeout(() => {
+            warnEl.style.display = "none";
+          }, 2000);
+          } else {
+          errorEl.style.display = "block";
+           setTimeout(() => {
+          errorEl.style.display = "none";
+         }, 2000);
+  }
+};
+successBtn.addEventListener("click", toast);
+warnBtn.addEventListener("click", toast);
+errorBtn.addEventListener("click", toast);
+
+        </code></pre>
+
       </main>
     </section>
+    <footer class="flex-V-center-VH">
+      <div>Lets Connect Now!!!!</div>
+      <ul>
+        <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+        <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+        <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+      </ul>
+    </footer>
     <script src="./toast.js"></script>
+    <script src="./modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
