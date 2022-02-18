@@ -20,6 +20,9 @@
   --danger-color:red;
   --success-color:palegreen;
 
+  --pale-white:#fff;
+  --badge-color:#ff5677;
+  --hero-color:#282c3f;
 }
 
 .header-font-family {
