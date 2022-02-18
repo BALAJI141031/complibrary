@@ -10,7 +10,8 @@
 }
 .alert > p {
   margin: 0px;
-  margin-left: 5px;
+  margin-left: 0.5em;
+  margin-top: 0.1em;
 }
 
 .alert-success {
