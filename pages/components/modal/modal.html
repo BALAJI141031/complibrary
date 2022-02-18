@@ -65,8 +65,43 @@
             <span id="closeBtn">&times;</span>
           </div>
         </div>
+        <pre><code class="language-html">
+          &lt;div id="modal-Container"
+            &lt;div class="flex-H-space-bw" id="modal-content"
+              &lt;pHey you are on Modal to get out just click on cross&lt;/p
+              &lt;span id="closeBtn"&times;&lt;/span
+           &lt;/div&gt;
+         &lt;/div&gt;
+        </code></pre>
+
+        <pre><code class="js">
+          let modalEl = document.getElementById("modal-Container");
+          let modalBtn = document.getElementById("modalBtn");
+          let closeBtn = document.getElementById("closeBtn");
+
+          // event listener for click
+
+          const openModal = (event) => (modalEl.style.display = "block");
+          modalBtn.addEventListener("click", openModal);
+
+          const closeModal = (event) => (modalEl.style.display = "none");
+          closeBtn.addEventListener("click", closeModal);
+        </code></pre>
+        
       </main>
     </section>
+     <footer class="flex-V-center-VH">
+      <div>Lets Connect Now!!!!</div>
+      <ul>
+        <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+        <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+        <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+      </ul>
+    </footer>
     <script src="./modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

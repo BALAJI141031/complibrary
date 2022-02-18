@@ -29,7 +29,7 @@
 }
 
 .text-grey {
-  color: grey;
+  color: var(--grey-text);
 }
 .text-align-center {
   text-align: center;
