@@ -16,6 +16,13 @@
   --hover-color: rgb(212, 250, 250);
   --anchor-el-color: #000000;
   --footer-color: #fff;
+  --warn-color:rgb(255, 150, 14);
+  --danger-color:red;
+  --success-color:palegreen;
+
+  --pale-white:#fff;
+  --badge-color:#ff5677;
+  --hero-color:#282c3f;
 }
 
 .header-font-family {

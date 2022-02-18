@@ -73,8 +73,8 @@
   position: absolute;
   left: 0em;
   top: 0em;
-  color: #ffff;
-  background-color: rgb(168, 168, 168);
+  color: var(--pale-white);
+  background-color: var(--pale-white);
   opacity: 0.8;
   height: 100%;
   display: flex;
@@ -92,14 +92,14 @@
   justify-content: center;
   align-items: center;
   height: max-content;
-  padding: 5px;
+  padding: 0.5em;
   width: 100%;
   z-index: 2;
   left: 50%;
   top: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-size: 18px;
+  color: var(--pale-white);
+  font-size: 2em;
   background-color: var(--primary-color);
 }
 .p-card-btn {
@@ -123,6 +123,29 @@
   align-items: center;
   width: 2em;
   height: 2em;
+}
+.hero-overlay-card {
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/aslkljzahxanxy5vge5y");
+  width: 15em;
+  height: 15em;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.2em;
+}
+
+.overlay-card > h1 {
+  margin: 0px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12em;
 }
 
 /* horizantal card */
@@ -181,7 +204,7 @@
   margin: 0em 0em 0em 0em;
   background-color: var(--secondary-color);
   padding: 0.2em;
-  color: #fff;
+  color: var(--pale-white);
 }
 
 .sq-card > img {
@@ -212,10 +235,6 @@
   width: 35%;
 }
 
-.h-card > img > .flex-H-space-around > div {
-  background-color: red;
-}
-
 .reduce-mtb {
   margin: 0.3em 0.25em;
 }
@@ -229,13 +248,12 @@
   left: 1em;
   background-color: var(--primary-color);
   padding: 0.2em;
-  color: #fff;
-  /* z-index: 1; */
+  color: var(--pale-white);
 }
 
 .rating {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--pale-white);
 }
 
 .profile-pic {

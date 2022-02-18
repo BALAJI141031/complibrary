@@ -15,15 +15,15 @@
   position: absolute;
   top: -0.5em;
   left: 1.5em;
-  background-color: #fff;
+  background-color: var(--pale-white);
 }
 
 .success {
-  border-color: palegreen;
+  border-color: var(--success-color);
 }
 .warn {
-  border-color: rgb(255, 150, 14);
+  border-color: var(--warn-color);
 }
 .error {
-  border-color: red;
+  border-color: var(--danger-color);
 }
