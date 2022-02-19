@@ -77,8 +77,3 @@ ul > .ul-item-circle:hover {
 .ol-item-upperAlpha {
   list-style-type: upper-alpha;
 }
-
-.stacked-List li {
-  list-style-type: none;
-  background-color: transparent;
-}
