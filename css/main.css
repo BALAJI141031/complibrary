@@ -23,7 +23,7 @@ body > section{
   --warn-color:rgb(255, 150, 14);
   --danger-color:red;
   --success-color:palegreen;
-
+  --modal-color:rgba(0, 0, 0, 0.5);
   --pale-white:#fff;
   --badge-color:#ff5677;
   --hero-color:#282c3f;
