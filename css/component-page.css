@@ -3,6 +3,7 @@
   border-radius: 0.3em;
   padding: 0 0.5em;
   font-size: 1.5em;
+  color: var(--pale-white);
 }
 
 .pos-rel {
