@@ -13,3 +13,12 @@ navbar {
   color: var(--pale-white);
   background-color: var(--secondary-color);
 }
+
+.checked {
+  color: var(--warn-color);
+}
+
+.dynamic-rating-container > span:hover {
+  cursor: pointer;
+  color: var(--warn-color);
+}
