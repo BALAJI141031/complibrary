@@ -47,7 +47,7 @@
   font-size: 1em;
 }
 ul > .ul-item-solid:hover {
-  background-color: var(--pale-white);
+  background-color: transparent;
 }
 .ul-item-square {
   list-style-type: square;
@@ -55,7 +55,7 @@ ul > .ul-item-solid:hover {
 }
 
 ul > .ul-item-square:hover {
-  background-color: var(--pale-white);
+  background-color: transparent;
 }
 
 .ul-item-circle {
@@ -64,7 +64,7 @@ ul > .ul-item-square:hover {
 }
 
 ul > .ul-item-circle:hover {
-  background-color: var(--pale-white);
+  background-color: transparent;
 }
 
 .ol-item-roman {
