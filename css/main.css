@@ -13,11 +13,18 @@ body > section{
   margin-top: 2em;
 }
 
-navbar {
+ navbar >div>div{
+   color: var(--primary-color);
+   font-family: serif;
+   font-weight: bolder;
+   font-size: 1.5em;
+}
+
+header {
   border-bottom: 1px solid;
 }
 
-navbar i {
+header i {
   color: var(--primary-color);
 }
 

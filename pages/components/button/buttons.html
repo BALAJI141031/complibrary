@@ -15,12 +15,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../../../css/component-page.css"/>
     <link rel="stylesheet" href="../../../css/utilities.css"/>
     <link rel="stylesheet"
     href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
   </head>
   <body>
-    <navbar class="flex-H-space-around">
+    <header class="flex-H-space-around">
       <h1><sapn class="span-style">Spark</sapn></h1>
       <!-- <h1>Spark UI</h1> -->
       <div class="flex-H-center-V">
@@ -33,31 +34,29 @@
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
       </div>
-    </navbar>
+    </header>
 
     <section class="page-layout">
-      <nav class="flex-V-center-H" >
+      <navbar class="flex-V-center-H" >
 
         <div>
-          <div>Getting Started</div>
-          <ul class="ul-mt">
-            <li>Usage</li>
-          </ul>
+          
             <div>Components</div>
             <ul class="ul-mt">
-              <a href="../Alerts/index.html"><li >Avatar&Alert</li></a>
-              <a href="../badge/badge.html"><li >Badge</li></a>
-              <a href="../button/buttons.html"><li >Button</li></a>
-              <a href="../cards/cards.html"><li >Card</li></a>
-              <a></a><li >Image</li>
-              <a href="../inputs/input.html"><li >Input</li></a>
-              <li >List</li>
-              <li >Navigation</li>
-              <li >Toast</li>
-            </ul>
+              <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
+              <a href="../badge/badge.html"><li>Badge</li></a>
+              <a href="../button/buttons.html"><li>Button</li></a>
+              <a href="../cards/cards.html"><li>Card</li></a>
+              <a href="../res-image/image.html"> <li>Image</li></a>
+              <a href="../inputs/input.html"><li>Input</li></a>
+              <a href="../modal/modal.html"><li>Modal</li></a>
+              <a href="../textUtilities/textUtil.html"><li>Text-utilities</li></a>
+              <a href="../toast/toast.html"><li>Toast</li></a>
+              <a href="../others/others.html"><li>Others</li></a>
+            </ul>  
           
           </div>
-        </nav>
+        </navbar>
       <main >
         <h1>Button</h1>
         <h2>Solid Buttons</h2>
@@ -76,8 +75,8 @@
      
   </div>
         <p>
-          The solid Button Component is available in two variants primary-btn
-          secondary-btn
+          The solid Button Component is available in two variants <span class="text-span-style">primary-btn</span>
+          <sapn class="text-span-style">secondary-btn</sapn>
         </p>
         <h2>Outline Buttons</h2>
         <div class="component">
@@ -95,7 +94,7 @@
 </div>
         <p>
           The outline button component is available in two variants
-          primary-outlime-btn,secondary-outline-btn
+          <span class="text-span-style">primary-outlime-btn</span>,<span class="text-span-style">secondary-outline-btn</span>
         </p>
         
 
@@ -119,11 +118,11 @@
           </button>
 
           <button class="btn primary-icon-btn">
-            <p>Checkout</p>
+            Checkout
             <i class="fas fa-long-arrow-alt-right"></i>
           </button>
 
-          <button class="btn primary-icon-btn ">
+          <button class="btn primary-icon-btn">
             Checkout
             <i class="fas fa-long-arrow-alt-right "></i>
           </button>
@@ -134,12 +133,12 @@
           </button>
         </div>
         <pre><code class="language-html">
-          &lt;button class="btn btn secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
-          &lt;button class="btn btn secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
+          &lt;button class="btn  secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
+          &lt;button class="btn  secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
         </code></pre>
 </div>
         <p>
-          This type buttons will help us in social media and ecommerce website
+          Icon buttons are in two variants primary and scondary <span class="text-span-style">btn  secondary-icon-btn</span> <span class="text-span-style">btn  primary-icon-btn</span> 
         </p>
 
         <h2>Floating action button</h2>
@@ -163,7 +162,7 @@
         &lt;button class="btn float"&gt;&lt;i&gt;class="fas fa-angle-double-down"&gt;&lt;/i&gt;&lt;/button&gt;
       </code></pre>
 </div>
-        <p>Floating action button can be used in all website</p>
+        <p>this button is in one variant  <span class="text-span-style">btn float</span></p>
         <h2>Link Buttons</h2>
         <div class="component">
         <div class="flex-H-space-around ">
@@ -179,17 +178,10 @@
         &lt;button class="btn secodary-link"&gt;&lt;/button&gt;
       </code></pre>
 </div>
+<p>link buttons are in two variants  <span class="text-span-style">btn primary-link</span> <span class="text-span-style">btn secodary-link</span> </p>
 
       </main>
-      <aside>
-        <h3 class="side-navigator">On this page you can get</h3>
-        <hr />
-        <h3><a href="#s-alerts">Solid Buttons</a></h3>
-        <h3><a href="#s-avatars">Outline Buttons</a></h3>
-        <h3><a href="#avatars-status">Icon Buttons</a></h3>
-        <h3><a href="#s-avatars">Floating Button</a></h3>
-        <h3><a href="#avatars-status">Link Buttons</a></h3>
-      </aside>
+    
     </section>
     <footer class="flex-V-center-VH">
       <div>Lets Connect Now!!!!</div>
