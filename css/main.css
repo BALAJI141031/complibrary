@@ -10,7 +10,17 @@
 body > section{
   position: relative;
   min-height: 100vh;
+  margin-top: 2em;
 }
+
+navbar {
+  border-bottom: 1px solid;
+}
+
+navbar i {
+  color: var(--primary-color);
+}
+
 
 :root {
   --primary-color: #398AB9;
