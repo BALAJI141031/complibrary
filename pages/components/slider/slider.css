@@ -1,0 +1,24 @@
+.grid-50-50-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-50-50-50-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+navbar {
+  padding: 1em;
+  color: var(--pale-white);
+  background-color: var(--secondary-color);
+}
+
+.checked {
+  color: var(--warn-color);
+}
+
+.dynamic-rating-container > span:hover {
+  cursor: pointer;
+  color: var(--warn-color);
+}
