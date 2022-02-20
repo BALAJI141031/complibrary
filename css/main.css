@@ -13,16 +13,16 @@ body > section{
 }
 
 :root {
-  --primary-color: #16c79a;
+  --primary-color: #655D8A;
   --secondary-color: #80bdad;
   --teritiary-Color: #3f3947;
   --shadow: box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  --hover-color: rgb(212, 250, 250);
+  --hover-color: #D8D2CB;
   --anchor-el-color: #000000;
-  --footer-color: #fff;
-  --warn-color:rgb(255, 150, 14);
-  --danger-color:red;
-  --success-color:palegreen;
+  --footer-color: #EEEEEE;
+  --warn-color:#F1E0AC;
+  --danger-color:FF5C8D;
+  --success-color:#98B4AA;
 
   --pale-white:#fff;
   --badge-color:#ff5677;
