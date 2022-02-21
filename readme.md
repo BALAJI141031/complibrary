@@ -2,7 +2,7 @@ Component Library
 
 # Spark - Component Library by Balaji Narayana
 
-# Zippy UI - Usage
+# spark UI - Usage
 
 Spark UI is a simple, modular and accessible component library that
 gives you the building blocks you need to build your React
@@ -43,7 +43,7 @@ spark Ui contains the following Components:
 - [Typography](#typography)
 - [List](#list)
 - [Rating](#rating)
-- [others](#slider)
+- [others](#others)
 
 ---
 
