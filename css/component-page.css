@@ -1,16 +1,16 @@
 .span-style {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 0.3em;
   padding: 0 0.5em;
   font-size: 1.5em;
   color: var(--pale-white);
 }
 .text-span-style {
-  background-color: var(--hover-color);
+  background-color: var(--span-color);
   border-radius: 0.3em;
   padding: 0 0.5em;
   font-size: 1.5em;
-  /* color: var(--pale-white); */
+  color: var(--font-color);
 }
 
 .pos-rel {

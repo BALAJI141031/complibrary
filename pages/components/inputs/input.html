@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
     />
+    <script src="../../../index.js" defer></script>
   </head>
   <body>
     <header class="flex-H-space-around">
@@ -31,8 +32,8 @@
       <div class="flex-H-center-V">
         <p class="header-icons header-icons-m-lr">Docs</p>
         <p class="header-icons header-icons-m-lr">Blogs</p>
-        <div>
-          <i class="fas fa-adjust header-icons header-icons-m-lr"></i>
+        <div class="dark-light-btn">
+          <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
         </div>
         <div>
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
@@ -65,8 +66,8 @@
           users
         </p>
         <div class="input">
+          <label>Label</label><br />
           <input type="text" />
-          <div>Label</div>
         </div>
         <pre><code class="language-html">
          &lt;div class="input"&gt;
@@ -79,9 +80,10 @@
           validation Majorly useful to match the passwords if matched we will
           show input box in one color if not usually in red color
         </p>
+
         <div class="input">
+          <label>Label</label><br />
           <input type="text" class="success" />
-          <div>Label</div>
         </div>
         <pre><code class="language-html">
           &lt;div class="input"&gt;
@@ -90,9 +92,10 @@
           &lt;/div&gt;
         </code></pre>
         <div class="input">
+          <label>Label</label><br />
           <input type="text" class="warn" />
-          <div>Label</div>
         </div>
+
         <pre><code class="language-html">
           &lt;div class="input"&gt;
             &lt;input type="text" class="warn" /&gt;
@@ -100,8 +103,8 @@
           &lt;/div&gt;
         </code></pre>
         <div class="input">
+          <label>Label</label><br />
           <input type="text" class="error" />
-          <div>Label</div>
         </div>
         <pre><code class="language-html">
           &lt;div class="input"&gt;
@@ -110,12 +113,6 @@
           &lt;/div&gt;
         </code></pre>
       </main>
-      <aside>
-        <h3 class="side-navigator">On this page you can get</h3>
-        <hr />
-        <h3><a href="#s-input">Standard Input</a></h3>
-        <h3><a href="#v-input">Input validation</a></h3>
-      </aside>
     </section>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>

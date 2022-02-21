@@ -1,7 +1,7 @@
 @import url(../../../css/main.css);
 
 .alert {
-  background-color: #99ddff;
+  background-color: var(--info-color);
   margin: 1rem;
   padding: 1em;
   border-radius: 0.5em;
@@ -12,19 +12,20 @@
   margin: 0px;
   margin-left: 0.5em;
   margin-top: 0.1em;
+  color: var(--font-color);
 }
 
 .alert-success {
-  background-color: #f0e68c;
+  background-color: var(--success-color);
 }
 .alert-danger {
-  background-color: #d46e66;
+  background-color: var(--danger-color);
 }
 .alert-warning {
-  background-color: #ffc0cb;
+  background-color: var(--warn-color);
 }
 .alert-info {
-  background-color: #99ddff;
+  background-color: var(--info-color);
 }
 
 /* avatar */

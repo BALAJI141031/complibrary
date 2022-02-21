@@ -9,12 +9,15 @@
   border-width: 2px;
   width: 15em;
   height: 2em;
+  color: var(--heading-color);
 }
 
 .input > div {
   position: absolute;
   top: -0.5em;
   left: 1.5em;
+  padding: 2px;
+  color: var(--heading-color);
   background-color: var(--pale-white);
 }
 

@@ -13,6 +13,10 @@ body > section{
   margin-top: 2em;
 }
 
+body li {
+  color: var(--font-color);
+}
+
  navbar >div>div{
    color: var(--primary-color);
    font-family: serif;
@@ -29,6 +33,8 @@ header i {
 }
 
 
+
+
 :root {
   --primary-color: #398AB9;
   --secondary-color: #1C658C;
@@ -38,14 +44,45 @@ header i {
   --anchor-el-color: #000000;
   --footer-color: #EEEEEE;
   --warn-color:#f8db84;
-  --danger-color:FF5C8D;
+  --danger-color:#FF5C8D;
   --success-color:#98B4AA;
-
+  --bg-color: transparent;
   --pale-white:#fff;
-  --badge-color:#ff5677;
+  --badge-color:#ff5677;  
   --hero-color:#282c3f;
   --grey-text:#C0A080;
+  --font-color:#282c3f;
+  --span-color:#ccd4ff;
+  --info-color:#688178;
 }
+
+[data-theme="dark"] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --font-color: #f4f4f6;
+  --bg-color: #161625;
+  --heading-color: #6a738d;
+  --teritiary-Color: #3f3947;
+  --hover-color: #818cab;
+  --anchor-el-color: #000000;
+  --footer-color: #EEEEEE;
+  --warn-color:#90731a;
+  --pale-white:#fff;
+  --badge-color:#ff5677;  
+  --hero-color:#282c3f;
+  --grey-text:#C0A080;
+  --danger-color:#FF5C8D;
+  --success-color:#65a58e;
+  --span-color:#38385a;
+  --info-color:#485c55;
+}
+
+body{
+  background-color:var(--bg-color);
+  color:var(--font-color)
+} 
+
+
 
 .header-font-family {
   /* font-family: "Spark", sans-serif; */
