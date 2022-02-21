@@ -95,8 +95,6 @@ Buttons are also called as call to action. They can be used to make your web pag
 
 Card are used to show user related data collectively, like product details.
 
-You will find the following types of **Cards** on: https://component.mayuresh.ml/documentation/docs.html#card-section
-
 Box shadow is added to all the Cards:
 
 - Horizontal Cards
