@@ -130,6 +130,7 @@ aside {
   border-color: var(--secondary-color);
   margin-right: 1em;
   padding: 1em;
+  height: max-content;
 }
 
 .code-block {
