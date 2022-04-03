@@ -13,9 +13,13 @@ body > section{
   margin-top: 2em;
 }
 
+html{
+  font-size: 100%;
+}
+
 body li {
   color: var(--font-color);
-}
+} 
 
  navbar >div>div{
    color: var(--primary-color);
@@ -26,11 +30,38 @@ body li {
 
 header {
   border-bottom: 1px solid;
+  width: 100%;
+  
 }
+
 
 header i {
   color: var(--primary-color);
 }
+
+/* burger section */
+/* burger icon */
+.burger-button {
+  font-size: 1.5rem;
+}
+
+.buger-div  {
+  display: none;
+}
+
+/* responsive-navbar */
+/* .toggle-navbar{
+  position: absolute;
+  display: block;
+  width: 40%;
+  background-color:orange;
+  font-size: 1.5rem;
+  top: 12%;
+} */
+
+/* .res-nav-container{
+  display: none;
+} */
 
 
 
@@ -85,14 +116,76 @@ body{
 
 
 .header-font-family {
-  /* font-family: "Spark", sans-serif; */
   color: var(--primary-color);
   font-family: "Archivo Black", sans-serif;
-  /* padding: 0 0 0.1rem 0.2rem; */
 }
 
-@media screen and (max-width: 800px) {
-  :root {
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  html{
     font-size: 100%;
   }
+  .nav-container{
+    display: none;
+  }
+
+  .page-layout{
+  display: grid;
+  grid-template-columns:3fr 0.5fr;
+  }
+  .header-navigation{
+    display: none;
+  }
+
+  .buger-div{
+    display: block;
+    padding: 2rem;
+  
+  }
+
+  .buger-div >div > a {
+    margin-right: 1em;
+
+  }
+
+  .res-nav-container{
+    top:15%
+  }
+     
+
+} 
+
+@media screen and (max-width: 768px) {
+ html{
+   font-size: 80%;
+ }
+ .res-nav-container{
+  top:13%
 }
+
+}
+@media screen and (max-width: 400px) {
+  html{
+    font-size: 60%;
+  }
+  nav{
+    display: none;
+  }
+
+  .res-nav-container{
+    /* display: none; */
+    top:11%
+  }
+
+}
+
+
+
+/* @media screen and (min-width: 992px) {
+  html{
+    font-size: 110%;
+  }
+
+} */
+

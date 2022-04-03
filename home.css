@@ -1,27 +1,89 @@
 .flex-V-center-VH > h1 {
   /* background-color: aqua; */
-  font-size: 4em;
-  width: 10em;
+  font-size: 4rem;
+  width: 40%;
   text-align: center;
 }
 
 .flex-V-center-VH > p {
-  font-size: 1.5em;
-  width: 30em;
+  font-size: 1.5rem;
+  width: 30%;
   margin-top: 0px;
   text-align: center;
 }
 
-/* .flex-V-center-VH > div:nth-of-type(2) > p > pre > code {
-  font-size: 1em;
-  width: 30em;
-  margin-top: 0px;
-} */
+pre {
+  width: 100%;
+}
+
+code {
+  width: 100%;
+}
 
 p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 pre {
-  font-size: 1.5em;
+  font-size: 1.5rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+  .flex-V-center-VH > h1 {
+    font-size: 4rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .flex-V-center-VH > p {
+    font-size: 2rem;
+    width: 90%;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .flex-V-center-VH > h1 {
+    font-size: 4rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .flex-V-center-VH > p {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-V-center-VH > h1 {
+    font-size: 4rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .flex-V-center-VH > p {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .flex-V-center-VH > h1 {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-V-center-VH > p {
+    font-size: 2rem;
+    width: 80%;
+    margin-top: 0px;
+    text-align: center;
+  }
 }

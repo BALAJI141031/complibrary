@@ -25,39 +25,51 @@
   </head>
   <body>
     <header class="flex-H-space-around">
-      <a href="../../../home.html"
-        ><h1><sapn class="span-style">Spark</sapn></h1></a
-      >
+      <a href="../../../home.html"><h1><sapn class="span-style">Spark</sapn></h1></a>
       <!-- <h1>Spark UI</h1> -->
+      <!-- hamburger div for mobile -->
+      <div class="buger-div">
       <div class="flex-H-center-V">
-        <p class="header-icons header-icons-m-lr">Docs</p>
-        <p class="header-icons header-icons-m-lr">Blogs</p>
+        <a href="#" class="burger-button"><i class="fas fa-bars"></i></a>
         <div class="dark-light-btn">
           <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
         </div>
+      </div>
+    </div>
+
+      <div class="header-navigation">
+      <div class="flex-H-center-V">
+       <p class="header-icons header-icons-m-lr">Docs</p>
+       <p class="header-icons header-icons-m-lr">Blogs</p>
+       <div class="dark-light-btn">
+        <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+      </div>
         <div>
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
       </div>
+    </div>
     </header>
     <section class="page-layout">
-      <navbar class="flex-V-center-H">
+      <div class="nav-container">
+        <navbar class="flex-V-center-H" >
         <div>
-          <div>Components</div>
-          <ul class="ul-mt">
-            <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
-            <a href="../badge/badge.html"><li>Badge</li></a>
-            <a href="../button/buttons.html"><li>Button</li></a>
-            <a href="../cards/cards.html"><li>Card</li></a>
-            <a href="../res-image/image.html"> <li>Image</li></a>
-            <a href="../inputs/input.html"><li>Input</li></a>
-            <a href="../modal/modal.html"><li>Modal</li></a>
-            <a href="../textUtilities/textUtil.html"><li>Text-utilities</li></a>
-            <a href="../toast/toast.html"><li>Toast</li></a>
-            <a href="../others/others.html"><li>Others</li></a>
-          </ul>
-        </div>
-      </navbar>
+            <div>Components</div>
+            <ul class="ul-mt">
+              <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
+              <a href="../badge/badge.html"><li>Badge</li></a>
+              <a href="../button/buttons.html"><li>Button</li></a>
+              <a href="../cards/cards.html"><li>Card</li></a>
+              <a href="../res-image/image.html"> <li>Image</li></a>
+              <a href="../inputs/input.html"><li>Input</li></a>
+              <a href="../modal/modal.html"><li>Modal</li></a>
+              <a href="../textUtilities/textUtil.html"><li>Text-utilities</li></a>
+              <a href="../toast/toast.html"><li>Toast</li></a>
+              <a href="../others/others.html"><li>Others</li></a>
+            </ul> 
+          </div>
+        </navbar>
+      </div>
       <main>
         <h1 class="s-input">Input</h1>
         <h2>Standard Input</h2>

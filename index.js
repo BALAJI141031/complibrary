@@ -23,3 +23,14 @@ toggleBtn.addEventListener("click", () => {
     localStorage.setItem("mode", "Light");
   }
 });
+
+// dynamic nav-bar
+
+const burgerBtn = document.querySelector(".burger-button");
+const navDiv = document.querySelector(".res-nav-container");
+
+const toggleNavbar = () => {
+  navDiv.classList.toggle("toggle-navbar");
+};
+
+burgerBtn.addEventListener("click", toggleNavbar);

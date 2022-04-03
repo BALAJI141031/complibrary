@@ -14,8 +14,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./allComponents.css"/>
-    <link rel="stylesheet" href="./home.css"/>
+    <link rel="stylesheet" href="./allComponents.css" />
+    <link rel="stylesheet" href="./home.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
@@ -23,8 +23,8 @@
       <h1><sapn class="span-style">Spark</sapn></h1>
       <!-- <h1>Spark UI</h1> -->
       <div class="flex-H-center-V">
-       <p class="header-icons header-icons-m-lr">Docs</p>
-       <p class="header-icons header-icons-m-lr">Blogs</p>
+        <p class="header-icons header-icons-m-lr">Docs</p>
+        <p class="header-icons header-icons-m-lr">Blogs</p>
         <div class="dark-light-btn">
           <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
         </div>
@@ -33,17 +33,13 @@
         </div>
       </div>
     </header>
-    
+
     <main class="flex-V-center-VH">
-        <h1 >
-          Create accessible <span class="span-style">React</span> apps with speed
-        </h1> 
-        <p>
-          Spark UI is a simple, modular and accessible component library that
-          gives you the building blocks you need to build your React
-          applications.
-        </p>
-     
+      <h1>Create accessible React apps with speed</h1>
+      <p>
+        Spark UI is a simple, modular and accessible component library that
+        gives you the building blocks you need to build your React applications.
+      </p>
 
       <div>
         <a href="./pages/components/Alerts/index.html">
@@ -52,18 +48,22 @@
         <button class="btn primary-outlime-btn">GitHub</button>
         <button class="btn primary-btn">Installation</button>
       </div>
-      <div>
-        <h1>Installation</h1>
-        <p>
-          Copy and paste the code in the head tag of your html document. So
-          that you can style your components by just adding class names to
-          your html elements.
-        </p>
-       
-        <pre class="component"><code class="language-html">
-          &lt;link rel="stylesheet"
-          href="https://uispark.netlify.app/allComponents.css" &gt;
-      </div>
+
+      <h1>Installation</h1>
+      <p>
+        Copy and paste the code in the head tag of your html document. So that
+        you can style your components by just adding class names to your html
+        elements.
+      </p>
+      <pre class="component"><code class="language-html">
+        &lt;div class="alert"&gt;<p>A simple Info alert</p> &lt;div&gt;
+        &lt;div class="alert alert-danger"&gt;<p>A simple danger alert</p>&lt;div&gt;
+        &lt;div class="alert alert-warning"&gt;<p>A simple Warning alert</p>&lt;div&gt;
+      </code></pre>
     </main>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> -->
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

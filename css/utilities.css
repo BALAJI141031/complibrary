@@ -41,7 +41,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 .flex-V-sapce-between {
@@ -77,8 +77,8 @@
 }
 
 .header-icons-m-lr {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
 }
 
 .ul-mt {
@@ -128,9 +128,9 @@ aside {
   border-style: solid;
   border-width: 2px;
   border-color: var(--secondary-color);
-  margin-right: 1em;
-  padding: 1em;
+  width: 100%;
   height: max-content;
+  padding: 1em;
 }
 
 .code-block {
@@ -149,8 +149,9 @@ aside {
 }
 
 .header-icons {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
+
 .m-l {
   margin-left: 0.8em;
 }
@@ -171,6 +172,11 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   /* align-items: center; */
+}
+
+.language-html {
+  margin: 0px;
+  width: 100%;
 }
 
 footer {

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/pages/components/Alerts/alerts.css" />
     <link rel="stylesheet" href="./../../../css/component-page.css" />
     <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../../../css/main.css"
     <link rel="stylesheet" href="../../../css/utilities.css" />
     
     <link
@@ -27,6 +28,17 @@
     <header class="flex-H-space-around">
       <a href="../../../home.html"><h1><sapn class="span-style">Spark</sapn></h1></a>
       <!-- <h1>Spark UI</h1> -->
+      <!-- hamburger div for mobile -->
+      <div class="buger-div">
+      <div class="flex-H-center-V">
+        <a href="#" class="burger-button"><i class="fas fa-bars"></i></a>
+        <div class="dark-light-btn">
+          <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+        </div>
+      </div>
+    </div>
+
+      <div class="header-navigation">
       <div class="flex-H-center-V">
        <p class="header-icons header-icons-m-lr">Docs</p>
        <p class="header-icons header-icons-m-lr">Blogs</p>
@@ -37,12 +49,12 @@
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
       </div>
+    </div>
     </header>
     <section class="page-layout">
-      <navbar class="flex-V-center-H" >
-
+      <div class="nav-container">
+        <navbar class="flex-V-center-H" >
         <div>
-        
             <div>Components</div>
             <ul class="ul-mt">
               <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
@@ -56,11 +68,9 @@
               <a href="../toast/toast.html"><li>Toast</li></a>
               <a href="../others/others.html"><li>Others</li></a>
             </ul> 
-          
           </div>
         </navbar>
-    
-
+      </div>
     <main>
       <h1>Badge</h1>
       <h2 id="a-badges">Avatars with Badge</h2>
