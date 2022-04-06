@@ -19,20 +19,40 @@
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <header class="flex-H-space-around">
-      <h1><sapn class="span-style">Spark</sapn></h1>
-      <!-- <h1>Spark UI</h1> -->
-      <div class="flex-H-center-V">
-        <p class="header-icons header-icons-m-lr">Docs</p>
-        <p class="header-icons header-icons-m-lr">Blogs</p>
-        <div class="dark-light-btn">
-          <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
-        </div>
+   <!-- desktop header -->
+   <header class="desktop-nav">
+    <div class="flex-H-space-around " >
+      <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      
+      <div class="header-icons-div">
+       <p class="header-icons header-icons-m-lr">Docs</p>
+       <p class="header-icons header-icons-m-lr">Blogs</p>
+       <div class="dark-light-btn">
+        <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+      </div>
         <div>
           <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
         </div>
       </div>
+    
+    <div></div>
+    </div>
     </header>
+
+    <!-- mobile navbar -->
+      <!-- hamburger div for mobile -->
+      <header class="mobile-navbar">
+    <div class="flex-H-space-around ">
+       <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      <div class="buger-div">
+        <a href="#" class="burger-button"><i class="fas fa-bars icon-lg"></i></a>
+    </div>
+</div>
+      </header>
 
     <main class="flex-V-center-VH">
       <h1>Create accessible React apps with speed</h1>

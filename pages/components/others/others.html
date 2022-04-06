@@ -20,32 +20,40 @@
     <title>slider</title>
   </head>
   <body>
-    <header class="flex-H-space-around">
-      <a href="../../../home.html"><h1><sapn class="span-style">Spark</sapn></h1></a>
-      <!-- <h1>Spark UI</h1> -->
-      <!-- hamburger div for mobile -->
-      <div class="buger-div">
-      <div class="flex-H-center-V">
-        <a href="#" class="burger-button"><i class="fas fa-bars"></i></a>
-        <div class="dark-light-btn">
+     <!-- desktop header -->
+     <header class="desktop-nav">
+      <div class="flex-H-space-around " >
+        <a href="../../../home.html" >
+          <h1><sapn class="span-style">Spark</sapn></h1>
+      </a>
+        
+        <div class="header-icons-div">
+         <p class="header-icons header-icons-m-lr">Docs</p>
+         <p class="header-icons header-icons-m-lr">Blogs</p>
+         <div class="dark-light-btn">
           <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
         </div>
-      </div>
-    </div>
-
-      <div class="header-navigation">
-      <div class="flex-H-center-V">
-       <p class="header-icons header-icons-m-lr">Docs</p>
-       <p class="header-icons header-icons-m-lr">Blogs</p>
-       <div class="dark-light-btn">
-        <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
-      </div>
-        <div>
-          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+          <div>
+            <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+          </div>
         </div>
+      
+      <div></div>
       </div>
-    </div>
-    </header>
+      </header>
+  
+      <!-- mobile navbar -->
+        <!-- hamburger div for mobile -->
+        <header class="mobile-navbar">
+      <div class="flex-H-space-around ">
+         <a href="../../../home.html" >
+          <h1><sapn class="span-style">Spark</sapn></h1>
+      </a>
+        <div class="buger-div">
+          <a href="#" class="burger-button"><i class="fas fa-bars icon-lg"></i></a>
+      </div>
+  </div>
+        </header>
     <section class="page-layout">
       <div class="nav-container">
         <navbar class="flex-V-center-H" >
@@ -62,6 +70,7 @@
               <a href="../textUtilities/textUtil.html"><li>Text-utilities</li></a>
               <a href="../toast/toast.html"><li>Toast</li></a>
               <a href="../others/others.html"><li>Others</li></a>
+              <a href="../navigation/navigation.html"><li>Navigation</li></a>
             </ul> 
           </div>
         </navbar>
@@ -258,6 +267,19 @@
     </code></pre>
       <p>This is dynamic rating example now use this and implement your own logic to fill the stars either by dom manipulation in javascript or by changing State variable in react</p>
       </main>
+      <div class="sidebar sidebar-des" id="sidebarDiv">
+        <a href="../Alerts/index.html"><h5>Avatar&Alert</h5></a>
+                <a href="../badge/badge.html"><h5>Badge</h5></a>
+                <a href="../button/buttons.html"><h5>Button</h5></a>
+                <a href="../cards/cards.html"><h5>Card</h5></a>
+                <a href="../res-image/image.html"> <h5>Image</h5></a>
+                <a href="../inputs/input.html"><h5>Input</h5></a>
+                <a href="../modal/modal.html"><h5>Modal</h5></a>
+                <a href="../textUtilities/textUtil.html"><h5>Text-utilities</h5></a>
+                <a href="../toast/toast.html"><h5>Toast</h5></a>
+                <a href="../others/others.html"><h5>Others</h5></a>  
+                <a href="../navigation/navigation.html"><h5>Navigation</h5></a>  
+      </div>
     </section>
     <footer class="flex-V-center-VH">
       <div>Lets Connect Now!!!!</div>

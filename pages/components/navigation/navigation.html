@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../allComponents.css" />
+    <link rel="stylesheet" href="./navigation.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <script src="../../../index.js" defer></script>  
+    <title>Navigation</title>
+  </head>
+  <body>   
+    <!-- desktop header -->
+    <header class="desktop-nav">
+    <div class="flex-H-space-around " >
+      <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      
+      <div class="header-icons-div">
+       <p class="header-icons header-icons-m-lr">Docs</p>
+       <p class="header-icons header-icons-m-lr">Blogs</p>
+       <div class="dark-light-btn">
+        <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+      </div>
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+      </div>
+    
+    <div></div>
+    </div>
+    </header>
+
+    <!-- mobile navbar -->
+      <!-- hamburger div for mobile -->
+      <header class="mobile-navbar">
+    <div class="flex-H-space-around ">
+       <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      <div class="buger-div">
+        <a href="#" class="burger-button"><i class="fas fa-bars icon-lg"></i></a>
+    </div>
+</div>
+      </header>
+
+    <section class="page-layout">
+      <div class="nav-container">
+        <navbar class="flex-V-center-H" >
+        <div>
+            <div>Components</div>
+            <ul class="ul-mt">
+              <a href="../Alerts/index.html"><li>Avatar&Alert</li></a>
+              <a href="../badge/badge.html"><li>Badge</li></a>
+              <a href="../button/buttons.html"><li>Button</li></a>
+              <a href="../cards/cards.html"><li>Card</li></a>
+              <a href="../res-image/image.html"> <li>Image</li></a>
+              <a href="../inputs/input.html"><li>Input</li></a>
+              <a href="../modal/modal.html"><li>Modal</li></a>
+              <a href="../textUtilities/textUtil.html"><li>Text-utilities</li></a>
+              <a href="../toast/toast.html"><li>Toast</li></a>
+              <a href="../others/others.html"><li>Others</li></a>
+              <a href="../navigation/navigation.html"><li>Navigation</li></a>
+            </ul> 
+          </div>
+        </navbar>
+      </div>
+      <main>
+        <h1>Navigation</h1>
+        <!-- desktop header -->
+        
+        <p>
+          Navigation is a set of actions that guides a user throughout the app or website, enabling them to
+          interact with the product.
+        </p>  
+
+    <header class="desktop-nav">
+    <div class="flex-H-space-bw " >
+      <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      
+      <div class="header-icons-div">
+       <p class="header-icons header-icons-m-lr">Docs</p>
+       <p class="header-icons header-icons-m-lr">Blogs</p>
+       <div class="dark-light-btn">
+        <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+      </div>
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+      </div>
+    
+    <div></div>
+    </div>
+    </header>
+
+    <!-- code block -->
+    <pre>
+      <code>
+        <h4>Desktop Navbar</h4>
+
+        &lt;header&gt; class="desktop-nav"&gt;
+          &lt;div class="flex-H-space-bw " &gt;
+            &lt;a href="../../../home.html" &gt;
+              &lt;h1&gt;&lt;sapn class="span-style"&gt;Spark&lt;/sapn&gt;&lt;/h1&gt;
+          &lt;/a&gt;
+            
+            &lt;div class="header-icons-div"&gt;
+             &lt;p class="header-icons header-icons-m-lr"&gt;Docs&lt;/p&gt;
+             &lt;p class="header-icons header-icons-m-lr"&gt;Blogs&lt;/p&gt;
+             &lt;div class="dark-light-btn"&gt;
+              &lt;i class="fas fa-moon header-icons header-icons-m-lr"&gt;Dark&lt;/i&gt;
+            &lt;/div&gt;
+              &lt;div&gt;
+                &lt;i class="fab fa-github-alt header-icons header-icons-m-lr"&gt;&lt;/i&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          
+          &lt;div&gt;&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/header&gt;
+      </code>
+    </pre>
+
+
+
+      <!-- mobile navbar -->
+      <!-- hamburger div for mobile -->
+    <header class="mobile-navbar">
+    <div class="flex-H-space-around ">
+       <a href="../../../home.html" >
+        <h1><sapn class="span-style">Spark</sapn></h1>
+    </a>
+      <div class="buger-div">
+        <a href="#" class="burger-button"><i class="fas fa-bars icon-lg"></i></a>
+    </div>
+</div>
+</header>  
+<!-- mobile navbar to render on screen -->
+<pre><code>
+  <h4>mobile navbar</h4>
+
+&lt;header class="mobile-navbar"&gt;
+  &lt;div class="flex-H-space-around "&gt;
+     &lt;a href="../../../home.html" &gt;
+      &lt;h1&gt;&lt;sapn class="span-style"&gt;Spark&lt;/sapn&gt;&lt;/h1&gt;
+  &lt;/a&gt;
+    &lt;div class="buger-div"&gt;
+      &lt;a href="#" class="burger-button"&gt;&lt;i class="fas fa-bars icon-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;  
+</code></pre>
+<h2>Drawer</h2>
+     <p>Sub-navigation refers to the navigation UI that helps users access lower-level categories in the
+    site's information architecture.</p>
+
+    <div class="drawer-div">
+        <button class="btn secondary-outline-btn drawer-btn">Hover over me</button>
+        <div class="drawer-content">
+            <p>About</p>
+            <p>About</p>
+            <p>About</p>
+        </div>
+    </div>
+      </main>
+      <div class="sidebar sidebar-des" id="sidebarDiv">
+      <a href="../Alerts/index.html"><h5>Avatar&Alert</h5></a>
+              <a href="../badge/badge.html"><h5>Badge</h5></a>
+              <a href="../button/buttons.html"><h5>Button</h5></a>
+              <a href="../cards/cards.html"><h5>Card</h5></a>
+              <a href="../res-image/image.html"> <h5>Image</h5></a>
+              <a href="../inputs/input.html"><h5>Input</h5></a>
+              <a href="../modal/modal.html"><h5>Modal</h5></a>
+              <a href="../textUtilities/textUtil.html"><h5>Text-utilities</h5></a>
+              <a href="../toast/toast.html"><h5>Toast</h5></a>
+              <a href="../others/others.html"><h5>Others</h5></a>    
+              <a href="../navigation/navigation.html"><h5>Navigation</h5></a>
+    </div>
+    </section>
+     <footer class="flex-V-center-VH">
+      <div>Lets Connect Now!!!!</div>
+      <ul>
+        <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+        <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+        <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+      </ul>
+    </footer>
+    <script src="./modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

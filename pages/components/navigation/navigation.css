@@ -1,0 +1,47 @@
+.drawer-content {
+  display: none;
+  position: absolute;
+}
+
+.drawer-div {
+  position: relative;
+  display: inline;
+  margin-bottom: 2rem;
+}
+
+.drawer-div:hover .drawer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* .sidebar {
+  display: none;
+} */
+
+/* .mobile-sidebar {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--span-color);
+  padding: 1rem 5rem 1rem 10px;
+ 
+  font-size: 24px;
+} */
+
+/* .desktop-nav {
+  display: none;
+} */
+
+/* @media screen and (min-width: 992px) {
+  .mobile-sidebar {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .mobile-navbar {
+    display: none;
+  }
+} */
