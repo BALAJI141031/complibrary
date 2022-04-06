@@ -85,10 +85,8 @@ body{
 
 
 .header-font-family {
-  /* font-family: "Spark", sans-serif; */
   color: var(--primary-color);
   font-family: "Archivo Black", sans-serif;
-  /* padding: 0 0 0.1rem 0.2rem; */
 }
 
 @media screen and (max-width: 800px) {
