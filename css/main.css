@@ -34,6 +34,12 @@ header {
   
 }
 
+.header-icons-div{
+  width:20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 header i {
   color: var(--primary-color);
@@ -41,31 +47,10 @@ header i {
 
 /* burger section */
 /* burger icon */
+
 .burger-button {
   font-size: 1.5rem;
 }
-
-.buger-div  {
-  display: none;
-}
-
-/* responsive-navbar */
-/* .toggle-navbar{
-  position: absolute;
-  display: block;
-  width: 40%;
-  background-color:orange;
-  font-size: 1.5rem;
-  top: 12%;
-} */
-
-/* .res-nav-container{
-  display: none;
-} */
-
-
-
-
 :root {
   --primary-color: #398AB9;
   --secondary-color: #1C658C;
@@ -120,12 +105,44 @@ body{
   font-family: "Archivo Black", sans-serif;
 }
 
+.sidebar {
+  display: none;
+}
+
+.mobile-sidebar {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--span-color);
+  padding: 1rem 5rem 1rem 10px;
+  /* height: 60vh; */
+  font-size: 24px;
+}
+
+.desktop-nav {
+  display: none;
+}
+
 
 /* media queries */
+@media screen and (min-width: 992px) {
+  .mobile-sidebar {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .mobile-navbar {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 992px) {
   html{
     font-size: 100%;
   }
+
   .nav-container{
     display: none;
   }
@@ -133,36 +150,26 @@ body{
   .page-layout{
   display: grid;
   grid-template-columns:3fr 0.5fr;
-  }
-  .header-navigation{
-    display: none;
+  position: relative;
   }
 
   .buger-div{
     display: block;
     padding: 2rem;
-  
+    position: relative;  
   }
 
   .buger-div >div > a {
     margin-right: 1em;
 
   }
-
-  .res-nav-container{
-    top:15%
-  }
-     
-
 } 
 
 @media screen and (max-width: 768px) {
  html{
    font-size: 80%;
  }
- .res-nav-container{
-  top:13%
-}
+
 
 }
 @media screen and (max-width: 400px) {
@@ -173,19 +180,10 @@ body{
     display: none;
   }
 
-  .res-nav-container{
-    /* display: none; */
-    top:11%
-  }
+  
+
 
 }
 
 
-
-/* @media screen and (min-width: 992px) {
-  html{
-    font-size: 110%;
-  }
-
-} */
 

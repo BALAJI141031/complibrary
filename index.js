@@ -27,10 +27,20 @@ toggleBtn.addEventListener("click", () => {
 // dynamic nav-bar
 
 const burgerBtn = document.querySelector(".burger-button");
-const navDiv = document.querySelector(".res-nav-container");
+const sidebar = document.getElementById("sidebarDiv");
 
+console.log(sidebar, "button");
+let flag = false;
 const toggleNavbar = () => {
-  navDiv.classList.toggle("toggle-navbar");
+  if (!flag) {
+    sidebar.classList.remove("sidebar");
+    sidebar.classList.add("mobile-sidebar");
+  } else {
+    sidebar.classList.remove("mobile-sidebar");
+    sidebar.classList.add("sidebar");
+  }
+
+  flag = !flag;
 };
 
 burgerBtn.addEventListener("click", toggleNavbar);
