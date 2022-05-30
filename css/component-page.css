@@ -1,5 +1,5 @@
 .span-style {
-  background-color: var(--primary-color);
+  background-color:  var(--primary-background-color);
   border-radius: 0.3em;
   padding: 0 0.5em;
   font-size: 1.5em;

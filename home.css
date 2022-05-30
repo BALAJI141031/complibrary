@@ -1,5 +1,15 @@
+@import url("./css/component-page.css");
+
+.logo-style {
+  background:  var(--primary-background-color);
+  border-radius: 0.3em;
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  color: var(--white-shade-text-color);
+}
 .flex-V-center-VH > h1 {
   /* background-color: aqua; */
+
   font-size: 4rem;
   width: 40%;
   text-align: center;
@@ -20,9 +30,9 @@ code {
   width: 100%;
 }
 
-p {
+/* p {
   font-size: 1.5rem;
-}
+} */
 
 pre {
   font-size: 1.5rem;
@@ -87,3 +97,39 @@ pre {
     text-align: center;
   }
 }
+
+
+/* updated version */
+
+.main-section{
+  height: calc(100vh - 98.875px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem ;
+  /* margin-bottom: 10rem; */
+}
+
+.main-div{
+  width:30rem ;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.main-section > div > div > a{
+  margin-right: 10px;
+}
+
+
+#hero-img{
+  color: var(--primary-color);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+  
+
+  

@@ -5,7 +5,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body > section{
   position: relative;
@@ -35,10 +35,11 @@ header {
 }
 
 .header-icons-div{
-  width:20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 2rem;
+  font-size: 18px;
 }
 
 header i {
@@ -52,7 +53,7 @@ header i {
   font-size: 1.5rem;
 }
 :root {
-  --primary-color: #398AB9;
+  --primary-color: rgb(39, 176, 255);
   --secondary-color: #1C658C;
   --teritiary-Color: #3f3947;
   --shadow: box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -70,6 +71,12 @@ header i {
   --font-color:#282c3f;
   --span-color:#ccd4ff;
   --info-color:#688178;
+  --primary-background-color:linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  --white-shade-text-color:#FFF2F2
 }
 
 [data-theme="dark"] {
