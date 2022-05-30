@@ -1,12 +1,6 @@
 @import url("./css/component-page.css");
 
-.logo-style {
-  background:  var(--primary-background-color);
-  border-radius: 0.3em;
-  padding: 0 0.5em;
-  font-size: 1.5em;
-  color: var(--white-shade-text-color);
-}
+
 .flex-V-center-VH > h1 {
   /* background-color: aqua; */
 

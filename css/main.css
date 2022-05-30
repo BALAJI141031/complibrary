@@ -13,6 +13,14 @@ body > section{
   margin-top: 2em;
 }
 
+.logo-style {
+  background:  var(--primary-background-color);
+  border-radius: 0.3em;
+  padding: 0 5px 0px 5px;
+  font-size: 1em;
+  color: var(--white-shade-text-color);
+}
+
 html{
   font-size: 100%;
 }
@@ -22,10 +30,8 @@ body li {
 } 
 
  navbar >div>div{
-   color: var(--primary-color);
    font-family: serif;
    font-weight: bolder;
-   font-size: 1.5em;
 }
 
 header {
