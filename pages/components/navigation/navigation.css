@@ -5,15 +5,25 @@
 
 .drawer-div {
   position: relative;
-  display: inline;
   margin-bottom: 12rem;
+
+  
 }
 
-.drawer-div:hover .drawer-content {
+.drawer-content > p {
+  border: solid 1px var(--primary-color);
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.drawer-div:hover .drawer-content  {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
+
 
 /* .sidebar {
   display: none;
