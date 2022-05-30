@@ -6,7 +6,7 @@
 .drawer-div {
   position: relative;
   display: inline;
-  margin-bottom: 2rem;
+  margin-bottom: 12rem;
 }
 
 .drawer-div:hover .drawer-content {
