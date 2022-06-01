@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alerts and Avatars</title>    
+    <title>Badges</title>    
     <link rel="stylesheet" href="/pages/components/Alerts/alerts.css" />
     <link href="http://fonts.cdnfonts.com/css/spark" rel="stylesheet">
     <link
@@ -14,6 +14,7 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <link rel="stylesheet" href="./badge.css"/>
   <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/hybrid.min.css"/>
 
@@ -83,50 +84,52 @@
       <h2 id="a-badges">Avatars with Badge</h2>
       <div class="component">
       <div class="flex-H-space-around ">
-        <figure class="pos-rel">
+        <!-- <figure class="pos-rel">
+        </figure> -->
+        
+        <div class="badge-div">
           <img
-            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
-            class="avatar avatar-lg"
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+          id="grid-item-img"
           />
-          <div class="badge badge-lg">9</div>
-        </figure>
-        <figure class="pos-rel">
+          <div id="grid-item-text" class="lg-text-grid-item">9</div>
+        </div>
+        <div class="badge-div">
           <img
-            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
-            class="avatar avatar-lg"
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+          id="grid-item-img"
           />
-          <div class="badge badge-lg">99</div>
-        </figure>
-        <figure class="pos-rel">
+          <div id="grid-item-text" class="lg-text-grid-item">99</div>
+        </div>
+         <div class="badge-div">
           <img
-            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
-            class="avatar avatar-lg"
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+          id="grid-item-img"
           />
-          <div class="badge badge-lg">99+</div>
-        </figure>
-        <figure class="pos-rel">
+          <div id="grid-item-text" class="lg-text-grid-item">99+</div>
+        </div>
+
+         <div class="badge-div">
           <img
-            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
-            class="avatar avatar-md"
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-md"
+          id="grid-item-img"
           />
-          <div class="badge badge-md">99+</div>
-        </figure>
-        <figure class="pos-rel">
-          <img
-            src="https://picturepan2.github.io/spectre/img/avatar-4.png"
-            class="avatar avatar-md"
-          />
-          <div class="badge badge-md">99+</div>
-        </figure>
+          <div id="grid-item-text" class="md-text-grid-item">99+</div>
+        </div>
       </div>
       <pre><code class="language-html">
-      &lt;figure class="pos-rel"&gt;
+      &lt;div class="badge-div"&gt;
       &lt;img
       src="https://picturepan2.github.io/spectre/img/avatar-4.png"
       class="avatar avatar-lg"
+      id="grid-item-img"
       /&gt;
-      &lt;class="badge badge-md"&gt;99+&lt;div&gt;
-      &lt;/figure&gt;
+      &lt;div id="grid-item-text" class="lg-text-grid-item"&gt;99+&lt;div&gt;
+      &lt;/div&gt;
     </code></pre>
   </div>
       <p>
@@ -136,34 +139,34 @@
       <h2 id="i-badges">Icons With Badge</h2>
       <div class="component">
       <div class="flex-H-space-around ">
-        <div class="pos-rel">
-          <i class="fas fa-cart-plus icon-lg"></i>
+        <!-- <div class="pos-rel">
+          
           <div class="badge badge-icon-md">99+</div>
+        </div> -->
+        <div class="badge-div">
+          <i class="fas fa-cart-plus icon-lg" id="grid-item-img"></i>
+          <div id="grid-item-text" class="lg-icon-text-grid-item">9</div>
         </div>
-        <div class="pos-rel">
-          <i class="fas fa-cart-plus icon-md"></i>
-          <div class="badge badge-icon-sm">99+</div>
+        <div class="badge-div">
+          <i class="fas fa-cart-plus icon-md" id="grid-item-img"></i>
+          <div id="grid-item-text" class="md-icon-text-grid-item">9</div>
         </div>
-        <div class="pos-rel">
-          <i class="fas fa-envelope-open-text icon-lg"></i>
-          <div class="badge badge-icon-md">9</div>
+        <div class="badge-div">
+          <i class="fas fa-envelope-open-text icon-lg" id="grid-item-img"></i>
+          <div id="grid-item-text" class="lg-icon-text-grid-item">9</div>
         </div>
-        <div class="pos-rel">
-          <i class="fas fa-bell icon-lg"></i>
-          <div class="badge badge-icon-md">99+</div>
-        </div>
-        <div class="pos-rel">
-          <i class="fas fa-bell icon-md"></i>
-          <div class="badge badge-icon-sm">99+</div>
+
+        <div class="badge-div">
+          <i class="fas fa-envelope-open-text icon-md" id="grid-item-img"></i>
+          <div id="grid-item-text" class="md-icon-text-grid-item">9</div>
         </div>
       </div>
            
     <pre><code class="language-html">
-      &lt;div class="pos-rel"&gt;
-      &lt;i
-      class="fas fa-bell icon-md"&gt;
+      &lt;div class="badge-div"&gt;
+      &lt;i class="fas fa-envelope-open-text icon-md" id="grid-item-img"&gt;
       &lt;/i&gt;;
-      &lt;div class="avatar-status online"&gt;&lt;div&gt;
+      &lt;div id="grid-item-text" class="md-icon-text-grid-item"&gt;&lt;div&gt;
       &lt;/div&gt;
     </code></pre>
 </div>
