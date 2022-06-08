@@ -127,7 +127,6 @@ li{
 ul {
   padding-left: 0px;
   list-style-type: none;
-  /* background-color: #121212; */
 }
 
 aside {
@@ -146,7 +145,6 @@ aside {
 }
 
 .code-block {
-  /* width: max-content; */
   border-style: solid;
   padding: 1rem;
 }
@@ -179,7 +177,6 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .language-html {
@@ -191,19 +188,7 @@ footer {
   height: 10em;
   width: 100%;
   background-color: var(--teritiary-Color);
-  /* padding: 2em; */
   color: var(--footer-color);
 }
 
-/* @media screen and (max-width: 800px) {
-  .flex-center {
-    display: none;
-  }
-  .comp-page-display {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .comp-display {
-    margin-left: 1em;
-  }
-} */
+

@@ -5,7 +5,6 @@ let warnBtn = document.getElementById("warn");
 let errorBtn = document.getElementById("error");
 
 let successEl = document.getElementById("succuessToast");
-// console.log(successEl);
 
 let warnEl = document.getElementById("WarnToast");
 

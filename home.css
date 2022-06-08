@@ -2,8 +2,6 @@
 
 
 .flex-V-center-VH > h1 {
-  /* background-color: aqua; */
-
   font-size: 4rem;
   width: 40%;
   text-align: center;
@@ -24,9 +22,6 @@ code {
   width: 100%;
 }
 
-/* p {
-  font-size: 1.5rem;
-} */
 
 pre {
   font-size: 1.5rem;
@@ -121,8 +116,6 @@ pre {
 
 #hero-img{
   color: var(--primary-color);
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
   
 

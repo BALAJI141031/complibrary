@@ -8,12 +8,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* navbar {
-  padding: 1em;
-  color: var(--pale-white);
-  background-color: var(--secondary-color);
-} */
-
 .checked {
   color: var(--warn-color);
 }
