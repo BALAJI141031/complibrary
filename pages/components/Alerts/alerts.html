@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter</title> 
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"  /> 
+    <title>Alerts</title>  
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>  
     <link rel="stylesheet" href="/pages/components/Alerts/alerts.css" />
+    <link href="http://fonts.cdnfonts.com/css/spark" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
@@ -20,7 +21,8 @@
   <script src="../../../index.js" defer></script>           
   </head>
   <body>
-            <!-- desktop header -->
+    
+        <!-- desktop header -->
    <header class="desktop-nav">
     <div class="flex-H-space-bw" >
       <a href="../../../home.html" >
@@ -51,7 +53,7 @@
 </div>
       </header>
     <section class="page-layout">
-     <div class="nav-container">
+      <div class="nav-container">
       <navbar class="flex-V-center-H" >
       <div>
         <div>Getting Started</div>
@@ -63,7 +65,7 @@
           <div>Components</div>
           <ul class="ul-mt">
             <li><a href="../Alerts/alerts.html">Alerts</a></li>
-            <li><a href="../Avatars/avatar.css">Avatars</a></li>
+            <li><a href="../Avatars/avatar.html">Avatars</a></li>
             <li><a href="../badge/badge.html">Badge</a></li>
             <li><a href="../button/buttons.html">Button</a></li>
             <li><a href="../cards/cards.html">Card</a></li>
@@ -79,11 +81,32 @@
       </navbar>
     </div>
       <main >
-          <h1 class="heading-m-t">How to use in your Projects</h1>
-          <p>To start using the components in your project import the stylesheet in your    html file.</p>
-           <pre><code class="language-html">
-                &lt;link  rel="stylesheet" href="https://uispark.netlify.app/allComponents.css"/&gt;
-    </code></pre>
+        
+        <div>
+          <h1 class="heading-m-t">Alert</h1>
+          <h2 id="s-alerts">Standard Alerts</h2>
+          <div class="component">
+          <div >
+            <div class="alert"><p>A simple Info alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-danger"><i class="fas fa-skull-crossbones"></i><p>A simple danger alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i><p>A simple Warning alert</p> <i class="fas fa-times ml-auto"></i></div>
+              <div class="alert alert-success"><i class="far fa-check-circle"></i><p>A simple success alert</p> <i class="fas fa-times ml-auto"></i></div>             
+          </div>
+         
+            <pre><code class="language-html">
+            &lt;div class="alert"&gt;<p>A simple Info alert</p> &lt;div&gt;
+            &lt;div class="alert alert-danger"&gt;<p>A simple danger alert</p>&lt;div&gt;
+            &lt;div class="alert alert-warning"&gt;<p>A simple Warning alert</p>&lt;div&gt;
+          </code></pre> 
+        </div>
+          <p>
+        The alert component has four variants
+        <span class="text-span-style">alert-success</span>,<span class="text-span-style"
+          >alert-danger</span
+        >,<span class="text-span-style">alert-warning</span> and
+        <span class="text-span-style">alert-info</span>
+          </p>
+
     </main>
     <div class="sidebar sidebar-des" id="sidebarDiv">
       <a href="../Alerts/alerts.html"><h5>Alert</h5></a>

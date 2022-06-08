@@ -28,49 +28,4 @@
   background-color: var(--info-color);
 }
 
-/* avatar */
 
-.avatar {
-  border-radius: 50%;
-  border-style: solid;
-  border-color: var(--primary-color);
-}
-
-.avatar-lg {
-  height: 5em;
-}
-.avatar-md {
-  height: 4em;
-}
-.avatar-sm {
-  height: 3em;
-}
-.avatar-xs {
-  height: 2em;
-}
-
-.avatar-status {
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 50%;
-  position: absolute;
-  padding: 0.4em;
-  border-color: #fff;
-}
-
-.online {
-  background-color: #fd08d4;
-  bottom: 0.4em;
-  right: 0.4em;
-}
-.offline {
-  background-color: #f56743;
-  bottom: 0.2em;
-  right: 0.2em;
-}
-
-.dnd {
-  background-color: #1403fa;
-  bottom: 0.1em;
-  right: 0em;
-}
