@@ -111,6 +111,14 @@ body{
   color:var(--font-color)
 } 
 
+.header-icons-div >  p  {
+  cursor: pointer;
+}
+
+.header-icons-div >  div {
+  cursor: pointer;
+}
+
 
 
 .header-font-family {
