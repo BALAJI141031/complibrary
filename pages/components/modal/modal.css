@@ -1,0 +1,29 @@
+#modal-Container {
+  position: fixed;
+  display: none;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-color);
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+#modal-Container > span:hover {
+  cursor: pointer;
+  font-size: 1.8em;
+}
+
+#modal-content {
+  width: 60%;
+  margin: 20% auto;
+  height: max-content;
+  background-color: var(--primary-color);
+  padding: 1em;
+}
+#closeBtn:hover {
+  cursor: pointer;
+  font-size: 2em;
+}

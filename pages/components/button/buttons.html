@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <link rel="stylesheet" href="../../../css/main.css"/>
+    <link rel="stylesheet" href="../button/buttons.css" />
+    <link rel="stylesheet" href="./../../../css/component-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../../css/utilities.css"/>
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+  </head>
+  <body>
+    <header class="flex-H-center-V">
+      <h1 class="header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-H ml-auto">
+        <div>
+          <i class="fab fa-github-alt header-icons header-icons-m-lr"></i>
+        </div>
+        <div><i class="fab fa-twitter header-icons header-icons-m-lr"></i></div>
+      </div>
+    </header>
+
+    <section class="page-layout">
+      <nav class="flex-V-center-H" >
+
+        <div>
+          <div>Getting Started</div>
+          <ul class="ul-mt">
+            <li>Usage</li>
+          </ul>
+            <div>Components</div>
+            <ul class="ul-mt">
+              <a href="../Alerts/index.html"><li >Avatar&Alert</li></a>
+              <a href="../badge/badge.html"><li >Badge</li></a>
+              <a href="../button/buttons.html"><li >Button</li></a>
+              <a href="../cards/cards.html"><li >Card</li></a>
+              <a></a><li >Image</li>
+              <a href="../inputs/input.html"><li >Input</li></a>
+              <li >List</li>
+              <li >Navigation</li>
+              <li >Toast</li>
+            </ul>
+          
+          </div>
+        </nav>
+      <main >
+        <h1>Button</h1>
+        <h2>Solid Buttons</h2>
+        <div class=" component">
+          <div class="flex-H-space-around">
+        <button class="btn primary-btn">primary Login</button>
+        <button class="btn secondary-btn">primary LogOut</button>
+        <button class="btn primary-btn">primary Login</button>
+        <button class="btn secondary-btn">primary LogOut</button>
+        <button class="btn primary-btn">primary Login</button>
+      </div>
+      <pre><code class="language-html">
+        &lt;button class="btn primary-btn"&gt;primary Login&lt;/button&gt;
+        &lt;button class="btn primary-btn"&gt;primary Login&lt;/button&gt;
+      </code></pre>
+     
+  </div>
+        <p>
+          The solid Button Component is available in two variants primary-btn
+          secondary-btn
+        </p>
+        <h2>Outline Buttons</h2>
+        <div class="component">
+        <div class="flex-H-space-around "><button class="btn primary-outlime-btn">Primary Login</button>
+        <button class="btn secondary-outline-btn">Secondary Logout</button>
+        <button class="btn primary-outlime-btn">Primary Login</button>
+        <button class="btn secondary-outline-btn">Secondary Logout</button>
+        <button class="btn primary-outlime-btn">Primary Login</button>
+       
+      </div>
+      <pre><code class="language-html">
+        &lt;button class="btn primary-outlime-btn"&gt;primary Login&lt;/button&gt;
+        &lt;button class="btn secondary-outline-btn"&gt;primary Login&lt;/button&gt;
+      </code></pre>
+</div>
+        <p>
+          The outline button component is available in two variants
+          primary-outlime-btn,secondary-outline-btn
+        </p>
+        
+
+        <h2>Icon Buttons</h2>
+
+        <!-- <button class="flex-exact btn primary-icon-btn">
+      <i class="fas fa-cart-arrow-down icon-md"></i>
+      Add to cart
+    </button>
+    <button class="btn primary-icon-btn">
+      <i class="fas fa-heart"></i>
+      Like
+    </button> -->
+    <div class="component">
+        <div class="flex-H-space-around ">
+          <button class="btn secondary-icon-btn">
+            <i class="fas fa-cart-arrow-down "></i>Add to cart
+          </button>
+          <button class="like-icon ">
+            <i class="fas fa-heart"></i>
+          </button>
+
+          <button class="btn primary-icon-btn">
+            <p>Checkout</p>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+
+          <button class="btn primary-icon-btn ">
+            Checkout
+            <i class="fas fa-long-arrow-alt-right "></i>
+          </button>
+
+          <button class="btn primary-icon-btn">
+            Checkout
+            <i class="fas fa-long-arrow-alt-right "></i>
+          </button>
+        </div>
+        <pre><code class="language-html">
+          &lt;button class="btn btn secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
+          &lt;button class="btn btn secondary-icon-btn"&gt;&lt;i&gt;class="fas fa-cart-arrow-down "&gt;&lt;/i&gt;add to cart&lt;/button&gt;
+        </code></pre>
+</div>
+        <p>
+          This type buttons will help us in social media and ecommerce website
+        </p>
+
+        <h2>Floating action button</h2>
+        <div class="component">
+       <div class="flex-H-space-around "> <button class="btn float">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+        <button class="btn float">
+          <i class="fas fa-anchor"></i>
+        </button>
+        <button class="btn float">
+          <i class="far fa-arrow-alt-circle-up"></i>
+        </button>
+        <button class="btn float">
+          <i class="fas fa-angle-double-down"></i>
+        </button><button class="btn float">
+          <i class="fas fa-allergies"></i>
+        </button>
+      </div>
+      <pre><code class="language-html">
+        &lt;button class="btn float"&gt;&lt;i&gt;class="fas fa-angle-double-down"&gt;&lt;/i&gt;&lt;/button&gt;
+      </code></pre>
+</div>
+        <p>Floating action button can be used in all website</p>
+        <h2>Link Buttons</h2>
+        <div class="component">
+        <div class="flex-H-space-around ">
+        <button class="btn primary-link">Primary Link</button>
+        <button class="btn secondary-link">Secondary Link</button>
+        <button class="btn primary-link">Primary Link</button>
+        <button class="btn secondary-link">Secondary Link</button>
+        <button class="btn primary-link">Primary Link</button>
+        <button class="btn secondary-link">Secondary Link</button>
+      </div>
+      <pre><code class="language-html">
+        &lt;button class="btn primary-link"&gt;&lt;/button&gt;
+        &lt;button class="btn secodary-link"&gt;&lt;/button&gt;
+      </code></pre>
+</div>
+
+      </main>
+      <aside>
+        <h3 class="side-navigator">On this page you can get</h3>
+        <hr />
+        <h3><a href="#s-alerts">Solid Buttons</a></h3>
+        <h3><a href="#s-avatars">Outline Buttons</a></h3>
+        <h3><a href="#avatars-status">Icon Buttons</a></h3>
+        <h3><a href="#s-avatars">Floating Button</a></h3>
+        <h3><a href="#avatars-status">Link Buttons</a></h3>
+      </aside>
+    </section>
+    <footer class="flex-V-center-VH">
+      <div>Lets Connect Now!!!!</div>
+      <ul>
+        <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+        <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+        <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+      </ul>
+    </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  </body>
+</html>

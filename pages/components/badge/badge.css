@@ -1,0 +1,98 @@
+@import url("../../../css/main.css");
+
+.badge {
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffff;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.badge-lg {
+  top: 0;
+  right: -0.9em;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8em;
+}
+
+.badge-md {
+  top: -0.8em;
+  right: -0.7em;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8em;
+}
+
+.badge-icon-md {
+  top: -1.5em;
+  right: -1.5em;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.7em;
+  background-color: #6b56f5;
+}
+
+.badge-icon-sm {
+  top: -1.6em;
+  right: -1.6em;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.63em;
+  background-color: #039aff;
+}
+
+.badge-sm {
+  top: 0em;
+  right: -0.7em;
+}
+
+.icon-badge {
+  border-style: solid;
+  border-width: 0px;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -0.8em;
+  right: -0.8em;
+  padding: 0.4em;
+}
+
+.text-badge {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  position: absolute;
+}
+.badge-xl {
+  bottom: 0;
+  right: -4.7em;
+}
+.badge-l {
+  bottom: 0em;
+  right: -4.6em;
+}
+
+.badge-xm {
+  bottom: -0.2em;
+  right: -4.7em;
+}
+.badge-m {
+  bottom: -0.3em;
+  right: -4.9em;
+}
+.badge-sm {
+  bottom: 0em;
+  right: -4.3em;
+}

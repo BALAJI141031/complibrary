@@ -1,0 +1,44 @@
+@import url(../css/component-page.css);
+@import url(../css/utilities.css);
+@import url(../css/);
+@import url(../css/homepage.css);
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body > section{
+  position: relative;
+  min-height: 100vh;
+}
+
+:root {
+  --primary-color: #16c79a;
+  --secondary-color: #80bdad;
+  --teritiary-Color: #3f3947;
+  --shadow: box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  --hover-color: rgb(212, 250, 250);
+  --anchor-el-color: #000000;
+  --footer-color: #fff;
+  --warn-color:rgb(255, 150, 14);
+  --danger-color:red;
+  --success-color:palegreen;
+  --modal-color:rgba(0, 0, 0, 0.5);
+  --pale-white:#fff;
+  --badge-color:#ff5677;
+  --hero-color:#282c3f;
+  --grey-text:#C0A080;
+}
+
+.header-font-family {
+  /* font-family: "Spark", sans-serif; */
+  color: var(--primary-color);
+  font-family: "Archivo Black", sans-serif;
+  /* padding: 0 0 0.1rem 0.2rem; */
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    font-size: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+.span-style {
+  background-color: var(--secondary-color);
+  border-radius: 0.3em;
+  padding: 0 0.5em;
+  font-size: 1.5em;
+}
+
+.pos-rel {
+  position: relative;
+  margin: 0.5em 0.5em;
+  width: max-content;
+  height: max-content;
+}
+
+.pos-rel-Ecase {
+  position: relative;
+}
+.icon-lg {
+  font-size: 2rem;
+  font-size: 2rem;
+}
+.icon-mr {
+  font-size: 1.5rem;
+  /* color: #fff; */
+  margin-right: 0.4em;
+}
+
+.icon-ml {
+  font-size: 1.5rem;
+  /* color: #fff; */
+  margin-left: 0.4em;
+}
+
+.icon-sm {
+  font-size: 1rem;
+  /* color: #fff; */
+  /* margin-left: 0.4em; */
+}
+
+/* we can remove margin here and can place in utilities */

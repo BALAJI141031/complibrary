@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alerts and Avatars</title>    
+    <link rel="stylesheet" href="/pages/components/Alerts/alerts.css" />
+    <link href="http://fonts.cdnfonts.com/css/spark" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+
+                
+  </head>
+  <body>
+    <header class="flex-H-center-V">
+      <h1 class=" header-font-family">SPARK UI</h1>
+      <!-- <h1>Spark UI</h1> -->
+      <div class="flex-H  ml-auto">
+        <div><i class="fab fa-github-alt header-icons header-icons-m-lr"></i></div>
+        
+      </div>
+    </header>
+    <section class="page-layout">
+      <nav class="flex-V-center-H" >
+
+      <div>
+        <div>Getting Started</div>
+        <ul class="ul-mt">
+          <li>Usage</li>
+        </ul>
+          <div>Components</div>
+          <ul class="ul-mt">
+            <a href="../Alerts/index.html"><li >Avatar&Alert</li></a>
+            <a href="../badge/badge.html"><li >Badge</li></a>
+            <a href="../button/buttons.html"><li >Button</li></a>
+            <a href="../cards/cards.html"><li >Card</li></a>
+            <a></a><li >Image</li>
+            <a href="../inputs/input.html"><li >Input</li></a>
+            <li >List</li>
+            <li >Navigation</li>
+            <li >Toast</li>
+          </ul>
+        
+        </div>
+      </nav>
+      <main >
+        
+        <div>
+          <h1 class="heading-m-t">Alert</h1>
+          <h2 id="s-alerts">Standard Alerts</h2>
+          <div class="component">
+          <div >
+            <div class="alert"><p>A simple Info alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-danger"><i class="fas fa-skull-crossbones"></i><p>A simple danger alert</p> <i class="fas fa-times ml-auto"></i></div>
+            <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i><p>A simple Warning alert</p> <i class="fas fa-times ml-auto"></i></div>
+              <div class="alert alert-success"><i class="far fa-check-circle"></i><p>A simple success alert</p> <i class="fas fa-times ml-auto"></i></div>             
+          </div>
+         
+            <pre><code class="language-html">
+            &lt;div class="alert"&gt;<p>A simple Info alert</p> &lt;div&gt;
+            &lt;div class="alert alert-danger"&gt;<p>A simple danger alert</p>&lt;div&gt;
+            &lt;div class="alert alert-warning"&gt;<p>A simple Warning alert</p>&lt;div&gt;
+          </code></pre> 
+        </div>
+          <p>
+        The alert component has four variants
+        <span class="span-style">alert-success</span>,<span class="span-style"
+          >alert-danger</span
+        >,<span class="span-style">alert-warning</span> and
+        <span class="span-style">aler-info</span>
+          </p>
+
+      <!-- avatar -->
+          <h1 id="s-avatars">Avatar</h1>
+          <h2>Standard Avatars</h2>  
+          <div class="component">
+          <div class="flex-H-space-around">  
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+        />
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-md"
+        />
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-sm"
+        />
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-xs"
+        />   
+        </div>
+        
+        <pre><code class="language-html">
+          &lt;img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+        /&gt;
+        &lt;img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-md"
+        /&gt;         
+        </code></pre>
+      </div>
+          <p>
+        The avatar Component has the 4 sizes,<span class="span-style"
+          >avatar-lg</span
+        >
+        (3em),<span class="span-style">avatar-md</span> (2.5em),<span
+          class="span-style"
+          >avatar-sm</span
+        >
+        (2em),<span class="span-style">avatar-xs</span> (1.5em)
+          </p>
+
+          <h2 id="avatars-status">Avatar with status</h2>
+
+
+          <div class="component">
+          <div class="flex-H-space-around">
+         
+      <figure class="pos-rel">
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-lg"
+        />
+        <div class="avatar-status online">
+      </figure>
+      <figure class="pos-rel">
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-md"
+        />
+        <div class="avatar-status offline"></div>
+      </figure>
+      <figure class="pos-rel">
+        <img
+          src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+          class="avatar avatar-sm"
+        />
+        <div class="avatar-status dnd"></div>
+      </figure>
+    </div>  
+     
+    <pre><code class="language-html">
+      &lt;figure class="pos-rel"&gt;
+      &lt;img
+      src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+      class="avatar avatar-lg"
+      /&gt;
+      &lt;div class="avatar-status online"&gt;&lt;div&gt;
+      &lt;/figure&gt;
+
+   &lt;figure class="pos-rel"&gt;
+      &lt;img
+      src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+      class="avatar avatar-lg"
+    /&gt;
+    &lt;div class="avatar-status offline"&gt;&lt;div&gt;
+    &lt;/figure&gt;
+           
+    </code></pre>
+      </div> 
+    </div> 
+      <p>Avatars can have three stautus indicators <span class="span-style">Online</span >, <span class="span-style">offline</span>, <span class="span-style">dnd</span></p>      
+    </main>
+    <aside>
+      <h3 class="side-navigator">On this page you can get</h3>
+      <hr/>
+      <h3><a href="#s-alerts">Standard alerts</a></h3>
+      <h3><a href="#s-avatars">Standard alerts</a></h3>
+      <h3><a href="#avatars-status">Standard alerts</a></h3>               
+    </aside>
+  </section>
+  <footer class="flex-V-center-VH">
+    <div>Lets Connect Now!!!!</div>
+    <ul>
+      <i class="fab fa-linkedin-in header-icons header-icons-m-lr"></i>
+      <i class="fab fa-instagram header-icons header-icons-m-lr""></i>
+      <i class="fab fa-twitter header-icons header-icons-m-lr"></i> 
+    </ul>
+  </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  </body>
+</html>

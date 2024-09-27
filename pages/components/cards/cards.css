@@ -1,0 +1,266 @@
+.horizantal-Card {
+  display: grid;
+  width: max-content;
+  padding: 1em;
+  /* height: 15em; */
+  grid-template-columns: 0.5fr 1fr;
+  /* background-color: var(--teritiary-Color); */
+  border-radius: var(--primary-border);
+}
+
+.inside-card {
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.filter-card {
+  width: 15em;
+  padding: 0.2em;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+}
+
+.filter-card > div > p {
+  margin-left: 1em;
+}
+
+.ver-card {
+  width: 14em;
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+  padding: 0.3em;
+  height: max-content;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+}
+
+.ver-card > div > p {
+  margin-bottom: 0em;
+}
+
+.ver-card > div > h3 {
+  margin: 0.5em;
+}
+
+.ver-card > img {
+  width: 100%;
+  height: 13em;
+}
+
+.ver-card > div > button {
+  margin: 0.5em;
+}
+
+.overlay-card {
+  position: relative;
+  width: max-content;
+  /* background-color: red; */
+  margin-top: 2em;
+}
+.ver-card > div > p {
+  text-align: center;
+}
+.overlay {
+  width: 100%;
+  position: absolute;
+  left: 0em;
+  top: 0em;
+  color: var(--pale-white);
+  background-color: var(--pale-white);
+  opacity: 0.8;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* z-index: 1; */
+}
+.sensual {
+  opacity: 0.95;
+}
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  padding: 0.5em;
+  width: 100%;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  color: var(--pale-white);
+  font-size: 2em;
+  background-color: var(--primary-color);
+}
+.p-card-btn {
+  width: 12em;
+}
+.gen-card {
+  width: 35em;
+  /* grid-template-columns: 0.2fr 1fr; */
+  border-style: solid;
+}
+.card-badge {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  border-style: solid;
+  border-width: 0px;
+  background-color: var(--teritiary-Color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+}
+.hero-overlay-card {
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/aslkljzahxanxy5vge5y");
+  width: 15em;
+  height: 15em;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.2em;
+}
+
+.overlay-card > h1 {
+  margin: 0px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12em;
+}
+
+/* horizantal card */
+
+.h-card {
+  width: 30em;
+  /* width: max-content; */
+  /* height: 20em; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary-color);
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+  padding: 0.51em;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+}
+.h-card > div > div > span {
+  color: var(--primary-color);
+  font-size: 1.3em;
+}
+
+.h-card > img {
+  width: 12em;
+  height: 15em;
+}
+.h-card > div {
+  margin-left: 0.5em;
+}
+
+.h-card > div > div > button {
+  margin-bottom: 0.5em;
+}
+.sq-card {
+  width: 18em;
+  height: max-content;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3);
+  padding: 0.51em;
+  position: relative;
+  border-width: 0.1px;
+  border-color: var(--secondary-color);
+  border-radius: var(--primary-border);
+  /* box-shadow: 1px 4px 20px rgb(5 5 5 / 0.3); */
+}
+.sq-card > h4 {
+  margin: 0.5em 0em 0em 0em;
+}
+
+.sq-card > p {
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.sq-card > .flex-space-between {
+  margin: 0em 0em 0em 0em;
+  background-color: var(--secondary-color);
+  padding: 0.2em;
+  color: var(--pale-white);
+}
+
+.sq-card > img {
+  width: 100%;
+  height: 15em;
+}
+
+.sq-card > .flex-space-between > div > i {
+  margin: 0em 0.3em 0.3em 0em;
+}
+
+.sq-card > button {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 15em;
+}
+
+.rating {
+  color: var(--primary-color);
+}
+
+.stick {
+  position: absolute;
+  top: 10em;
+}
+
+.h-card > img {
+  width: 35%;
+}
+
+.reduce-mtb {
+  margin: 0.3em 0.25em;
+}
+
+.strike-rate {
+  text-decoration: line-through;
+}
+.badge {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background-color: var(--primary-color);
+  padding: 0.2em;
+  color: var(--pale-white);
+}
+
+.rating {
+  background-color: var(--primary-color);
+  color: var(--pale-white);
+}
+
+.profile-pic {
+  width: 4em;
+  height: 4em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary-color);
+  border-radius: 50%;
+}
